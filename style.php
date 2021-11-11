@@ -82,7 +82,7 @@
         top: -40px;
     }
     .amp-sidebar-toggle  {
-        color: #56658B;
+        
     }
     .amp-sidebar-toggle span  {
         display: block;
@@ -100,10 +100,9 @@
 
     /* AMP Sidebar close button */
     .amp-sidebar-close{
-        background: #333;
         display: inline-block;
         padding: 5px 10px;
-        font-size: 12px;
+        font-size: 22px;
         color: #fff;
     }
 
