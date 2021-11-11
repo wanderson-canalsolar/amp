@@ -82,6 +82,7 @@
         top: -40px;
     }
     .amp-sidebar-toggle  {
+        color: #56658B;
     }
     .amp-sidebar-toggle span  {
         display: block;
@@ -199,6 +200,15 @@ input[type="submit"] {
 /**** 
 * Loop
 *****/
+.loop-title{
+    font-size: 1.2em;
+    color:#000;
+}
+.loop-title a{
+    color:#000;
+}
+.loop-category li{
+    list-style-type: none;}
 .potencias-amp{
     background-color: #EEEEEE;
     display: block;
@@ -263,6 +273,17 @@ px
         font-size:12px;
     }
 
+   body > amp-sidebar{
+    background-color: #56658B;
+}
+.amp-menu a{
+    color: #C0CDD8;
+    font-size:20px;
+    font-weight:bold;
+}
+.a-so{
+    margin-top:40px;
+}
 
 /****
 * Single
