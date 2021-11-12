@@ -342,10 +342,16 @@ px
 /**** 
 * Footer
 *****/
+.footer-widgets{
+    background-color: #252525;
+}
+
     .footer{
         padding: 30px 0px 20px 0px;
         font-size: 12px;
         text-align: center;
+        background-color: #252525;
+
     }
 
 
