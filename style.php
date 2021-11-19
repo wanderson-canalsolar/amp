@@ -229,13 +229,14 @@ px
 .header {
     background-color: #fff;
 }
-
+.loop-post1, .loop-post2, .loop-post3, .loop-post4{
+    border-bottom: 1px solid #000;
+}
 .loop-img{
     float:left;
     margin-right:10px;
 }
-    .loops{
-        border-bottom: 1px solid #000;
+    .loops, .loops2{
         margin-bottom:10px;
         padding-bottom: 10px;
     }
@@ -283,7 +284,39 @@ px
 .a-so{
     margin-top:40px;
 }
+.nome-colunista{
+    color: #CE5B3D;
+}
+.capa-revista-amp{
+    margin:auto;
+}
+.img-amp-colunistas{
+    float:left;
+    border-radius:50%;
+}
+.colunistas{
+    margin:10px;
+    text-align:center;
+}
+.hr{
+    height:3px;
+    background-color: #3333339e;
+}
+.pp-user-avatar{
+    width:50%;
+    height:auto;
+}
+.wpb_wrapper{
+    margin-top:40px;
+    margin-bottom:40px;
+}
+#canal-grid-7 > li > a > .no-lazyload{
+    width:100%;
+height:auto;}
 
+#canal-grid-1315 > li > a > .no-lazyload{
+    width:100%;
+height:auto;}
 /****
 * Single
 *****/

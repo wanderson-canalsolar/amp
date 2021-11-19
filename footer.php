@@ -26,5 +26,6 @@ Campinas – SP, 13087-727</p>
 </div>
 </div>
 	<?php amp_non_amp_link(); ?>
+	
 </footer>
 <?php amp_footer_core(); ?>
