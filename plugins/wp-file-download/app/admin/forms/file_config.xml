@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form class="wpfdparams" method="POST" action="admin.php?page=wpfd-config&amp;task=config.savetfileparams">
+    <input
+            type="heading"
+            label="Single file"
+            value=""
+            class="inputbox input-block-level"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="singlebg"
+            type="text2"
+            label="Background color"
+            value="#444444"
+            class="ju-input wp-color-field minicolors minicolors-input"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+            data-default-color="#444444"
+    />
+    <input
+            name="singlehover"
+            type="text2"
+            label="Hover color"
+            value="#888888"
+            class="ju-input wp-color-field minicolors minicolors-input"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+            data-default-color="#888888"
+    />
+    <input
+            name="singlefontcolor"
+            type="text2"
+            label="Font color"
+            value="#ffffff"
+            class="ju-input wp-color-field minicolors minicolors-input"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+            data-default-color="#ffffff"
+    />
+
+    <button
+            type="submit"
+            value="Save"
+            class="ju-button orange-button"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+</form>

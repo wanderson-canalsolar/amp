@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form class="wpfdparams" id="notifications_config" method="POST"
+      action="admin.php?page=wpfd-config&amp;task=config.savenotificationsparams">
+    <input
+            type="heading"
+            label="Sender information"
+            value=""
+            class="inputbox input-block-level"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+    <input
+            name="notify_sender_name"
+            type="text2"
+            label="Sender name"
+            value="WP File Download"
+            class="ju-input ju-large-text"
+            required="true"
+            tooltip="Sender name"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+
+    />
+
+    <input
+            name="notify_sender_email"
+            type="text2"
+            label="Sender email"
+            value=""
+            class="ju-input ju-large-text"
+            required="true"
+            tooltip="Sender email"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+
+    />
+    <input
+            type="heading"
+            label="Reveiver and Email content"
+            value=""
+            class="inputbox input-block-level"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+    <input
+            name="notify_category_owner"
+            type="switcher"
+            label="Notify category owner"
+            value="0"
+            class="ju-input"
+            required="true"
+            tooltip="Notify category owner"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+
+    <input
+            name="notify_file_owner"
+            type="switcher"
+            label="Notify file owner"
+            value="0"
+            class="ju-input"
+            required="true"
+            tooltip="Notify file owner"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+
+    <input
+            name="notify_super_admin"
+            type="switcher"
+            label="Notify WordPress admins"
+            value="0"
+            class="ju-input"
+            required="true"
+            tooltip="Notify WordPress super admin"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+    <input
+        name="placeholder"
+        type="settingholder"
+        namespace="Joomunited\WP_File_Download\Admin\Fields\"
+        />
+    <input
+            name="notify_add_event"
+            type="switcher"
+            label="A file is added"
+            value="1"
+            class="ju-input"
+            required="true"
+            tooltip="A file is added"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+    <input
+            name="placeholder"
+            type="settingholder"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="notify_add_event_subject"
+            type="text2"
+            label=" "
+            value="A new file has been added"
+            class="ju-input ju-large-text"
+            required="true"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+
+    />
+    <input
+            name="notify_add_event_email"
+            type="text2"
+            label=" "
+            class="ju-input ju-large-text"
+            placeholder="Additional Email"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+
+    />
+
+    <input
+            id="notify_add_event_editor"
+            name="notify_add_event_editor"
+            type="editor"
+            label=" "
+            class="inputbox input-block-level"
+            required="true"
+            value="0"
+            event="added"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+    <input
+            name="notify_edit_event"
+            type="switcher"
+            label="File updated"
+            value="1"
+            class="ju-input"
+            required="true"
+            tooltip="A file has been updated"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+    <input
+            name="placeholder"
+            type="settingholder"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="notify_edit_event_subject"
+            type="text2"
+            label=" "
+            value="A file has been modified"
+            class="ju-input ju-large-text"
+            required="true"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+
+    />
+    <input
+            name="notify_edit_event_email"
+            type="text2"
+            label=" "
+            class="ju-input ju-large-text"
+            placeholder="Additional Email"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+
+    />
+    <input
+            id="notify_edit_event_editor"
+            name="notify_edit_event_editor"
+            type="editor"
+            label=" "
+            class="inputbox input-block-level"
+            required="true"
+            value="0"
+            event="edited"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+    <input
+            name="notify_delete_event"
+            type="switcher"
+            label="A file is deleted"
+            value="1"
+            class="ju-input"
+            required="true"
+            tooltip="A file is deleted"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+    <input
+            name="placeholder"
+            type="settingholder"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="notify_delete_event_subject"
+            type="text2"
+            label=" "
+            value="A file has been removed"
+            class="ju-input ju-large-text"
+            required="true"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+
+    />
+    <input
+            name="notify_delete_event_email"
+            type="text2"
+            label=" "
+            class="ju-input ju-large-text"
+            placeholder="Additional Email"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+
+    />
+    <input
+            id="notify_delete_event_editor"
+            name="notify_delete_event_editor"
+            type="editor"
+            label=" "
+            class="inputbox input-block-level"
+            required="true"
+            value="0"
+            event="removed"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+    <input
+            name="notify_download_event"
+            type="switcher"
+            label="A file is downloaded"
+            value="1"
+            class="ju-input"
+            required="true"
+            tooltip="A file is downloaded"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+    <input
+            name="placeholder"
+            type="settingholder"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="notify_download_event_subject"
+            type="text2"
+            label=" "
+            value="A file has been downloaded"
+            class="ju-input ju-large-text"
+            required="true"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+
+    />
+    <input
+            name="notify_download_event_email"
+            type="text2"
+            label=" "
+            class="ju-input ju-large-text"
+            placeholder="Additional Email"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+
+    />
+    <input
+            id="notify_download_event_editor"
+            name="notify_download_event_editor"
+            type="editor"
+            label=" "
+            class="inputbox input-block-level"
+            required="true"
+            value="0"
+            event="downloaded"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+    <button
+            type="submit"
+            value="Save"
+            class="ju-button orange-button"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+</form>

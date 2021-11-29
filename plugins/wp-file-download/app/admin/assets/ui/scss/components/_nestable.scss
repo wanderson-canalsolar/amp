@@ -1,0 +1,505 @@
+/**
+ * Nestable
+ */
+.dd {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.dd-list {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  .dd-list {
+    padding-left: 12px;
+  }
+}
+
+.dd-collapsed .dd-list {
+  display: none;
+}
+
+.dd-item, .dd-empty, .dd-placeholder {
+  display: block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  min-height: 20px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.dd-handle {
+  display: block;
+  height: 30px;
+  margin: 5px 0;
+  padding: 5px 10px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  background: #fafafa;
+  background: -webkit-linear-gradient(top, #fafafa 0%, #eee 100%);
+  background: -moz-linear-gradient(top, #fafafa 0%, #eee 100%);
+  background: linear-gradient(top, #fafafa 0%, #eee 100%);
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  &:hover {
+    color: #2ea8e5;
+    background: #fff;
+    cursor: move;
+  }
+}
+
+.dd-item > button {
+  position: relative;
+  cursor: pointer;
+  float: left;
+  width: 20px;
+  height: 25px;
+  margin: 0;
+  padding: 0;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  border: 0;
+  background: transparent;
+  font-size: 15px;
+  line-height: 1;
+  text-align: center;
+  font-weight: bold;
+  &:focus {
+    outline: none;
+  }
+}
+
+.wpfd-column div#wpfd-categories-col a {
+  &.trash i.icon-trash, &.edit i.icon-edit {
+    margin-top: 5px;
+  }
+}
+
+.dd-item {
+  > button {
+    &:before {
+      position: absolute;
+      left: -13px;
+      top: 10px;
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      font-size: 15px;
+      line-height: 1;
+      font-family: dashicons;
+      text-decoration: inherit;
+      font-weight: 400;
+      font-style: normal;
+      vertical-align: top;
+      text-align: center;
+      transition: color .1s ease-in 0;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      content: "\f345";
+      color: #888888;
+    }
+    &[data-action="collapse"]:before {
+      content: "\f347";
+    }
+  }
+  &.active {
+    > button {
+      &[data-action]:before {
+        color: #2291f0;
+      }
+    }
+  }
+}
+
+.dd-placeholder {
+  margin: 5px 0;
+  padding: 0;
+  min-height: 30px;
+  background: #f2fbff;
+  border: 1px dashed #b6bcbf;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.dd-empty {
+  margin: 5px 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  border: 1px dashed #bbb;
+  min-height: 100px;
+  background-color: #e5e5e5;
+  background-image: -webkit-linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff), -webkit-linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff);
+  background-image: -moz-linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff), -moz-linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff);
+  background-image: linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff), linear-gradient(45deg, #fff 25%, transparent 25%, transparent 75%, #fff 75%, #fff);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+}
+
+.dd-dragel {
+  position: absolute;
+  pointer-events: none;
+  z-index: 9999;
+  .countfile {
+    float: right;
+    margin-top: -1px;
+    color: #888888;
+  }
+  .trash, .edit {
+    display: none;
+  }
+  .dd3-content a.t {
+    width: 77%;
+  }
+  > .dd-item .dd-handle {
+    margin-top: 0;
+  }
+  .dd-handle {
+    @include boxShadow(unset);
+  }
+}
+
+/**
+ * Nestable Extras
+ */
+
+.nestable-lists {
+  display: block;
+  clear: both;
+  padding: 30px 0;
+  width: 100%;
+  border: 0;
+  border-top: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
+}
+
+#nestable-menu {
+  padding: 0;
+  margin: 20px 0;
+}
+
+#nestable-output, #nestable2-output {
+  width: 100%;
+  height: 7em;
+  font-size: 0.75em;
+  line-height: 1.333333em;
+  font-family: Consolas, monospace;
+  padding: 5px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.dd-hover > .dd-handle {
+  background: #2ea8e5 !important;
+}
+
+/* greyout disabled categories */
+
+.bs-docs-sidenav2 {
+  > li .dd-content.disabled {
+    background: #999;
+    pointer-events: none;
+    cursor: default;
+  }
+  a {
+    &[disabled] {
+      pointer-events: none;
+      cursor: default;
+      color: #e1e1e1;
+      &:hover {
+        pointer-events: none;
+        cursor: default;
+        color: #e1e1e1;
+      }
+    }
+    &.disabled {
+      pointer-events: none;
+      cursor: default;
+      color: #e1e1e1;
+      span.title {
+        color: #e1e1e1;
+      }
+    }
+  }
+  > li .dd-content.disabled:hover a {
+    &.edit .icon-edit, &.trash .icon-trash {
+      display: none;
+    }
+  }
+}
+
+/**
+
+ * Nestable Draggable Handles
+
+ */
+
+.dd3-content {
+  background: transparent none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 0;
+  @include boxSizing(border-box);
+  color: #333;
+  display: block;
+  font-weight: 600;
+  height: 35px;
+  margin: 1px 0;
+  padding: 0 5px 0 45px;
+  text-decoration: none;
+  line-height: 35px;
+  a.t {
+    display: flex;
+    color: #404852;
+    text-decoration: none;
+    text-align: left;
+    line-height: 1.3;
+    position: relative;
+    top: 10px;
+    .title {
+      @include textTruncate();
+      display: inline-block;
+      vertical-align: sub;
+    }
+    span.title.editable {
+      width: auto;
+    }
+  }
+  &:hover {
+    background: rgba(34, 145, 240, 0.1);
+    a.t {
+      color: #2291f0;
+      position: relative;
+      z-index: 999;
+    }
+    span.countfile {
+      color: #2291f0;
+    }
+  }
+}
+
+.dd-item.active > .dd-content {
+  background: transparent none repeat scroll 0 0;
+  border: medium none;
+  color: #2291f0;
+}
+
+.dd3-item {
+  &.active {
+    > div.dd-content.dd3-content > a.t span.title,
+    > div.dd-content.dd3-content > a.t span.title {
+      color: #2291f0;
+    }
+    > div.dd-content.dd3-content > a.t span.title.editable,
+    > div.dd-content.dd3-content > a.t span.title.editable {
+      color: #888888;
+    }
+    > .dd-content {
+      background: rgba(34, 145, 240, 0.1);
+      span.countfile {
+        color: #2291f0;
+      }
+    }
+    > .dd3-handle {
+      > .wpfd-folder,
+      > .onedrive-icon,
+      > .onedrive-business-icon,
+      > .dropbox-icon,
+      > .google-drive-icon {
+        color: #2291f0;
+      }
+    }
+  }
+  &:hover {
+    > .dd3-content {
+      [class^='icon-'] {
+        color: #2291f0;
+      }
+    }
+    > .dd3-handle {
+      > .wpfd-folder,
+      > .onedrive-icon,
+      > .onedrive-business-icon,
+      > .dropbox-icon,
+      > .google-drive-icon {
+        color: #2291f0;
+      }
+    }
+  }
+  //> button {
+  //  margin-left: -17px !important;
+  //  margin-right: -3px !important;
+  //}
+}
+
+.dd-dragel > .dd3-item > .dd3-content {
+  margin: 0;
+}
+
+.dd-expand {
+  display: none;
+}
+
+.dd-collapsed {
+  .dd-list, .dd-collapse {
+    display: none;
+  }
+  .dd-expand {
+    display: block;
+  }
+}
+
+.dd3-handle {
+  position: absolute;
+  margin: 0;
+  left: 20px;
+  top: 5px;
+  cursor: pointer;
+  width: 26px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  border: none;
+  background: transparent !important;
+  border-radius: 0;
+  .wpfd-folder, .onedrive-icon, .onedrive-business-icon, .dropbox-icon, .google-drive-icon {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 3px;
+    width: 20px;
+    text-indent: 0;
+    color: #888888;
+    font-size: 20px;
+    font-weight: normal;
+    vertical-align: middle;
+  }
+  &:hover {
+    background: #32373C;
+  }
+}
+.dd3-item.active {
+  > .dd3-handle {
+    > .wpfd-folder,
+    > .onedrive-icon,
+    > .onedrive-business-icon,
+    > .dropbox-icon,
+    > .google-drive-icon {
+      color: #2291f0;
+    }
+  }
+}
+
+.disabled.dd3-handle:hover {
+  background: none !important;
+  cursor: default;
+}
+
+.bs-docs-sidenav2 {
+  > li a {
+    &.edit, &.trash {
+      float: right;
+      display: none;
+      cursor: pointer;
+    }
+  }
+  .icon-edit, .icon-trash {
+    vertical-align: middle;
+  }
+  > li {
+    .dd-content:hover a {
+      &.edit, &.trash {
+        display: inherit;
+        width: 14px;
+        height: 14px;
+      }
+    }
+    span.countfile {
+      margin-top: -1px;
+      float: right;
+      color: #888888;
+    }
+    .dd-content {
+      &:hover a {
+        i[class^="icon-"] {
+          position: relative;
+          top: 10px;
+          display: block;
+          background-image: none !important;
+          &:before {
+            position: absolute;
+            background-image: none;
+            right: 0;
+            top: 0;
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            font-size: 14px;
+            line-height: 1;
+            font-family: dashicons;
+            text-decoration: inherit;
+            font-weight: 400;
+            font-style: normal;
+            vertical-align: top;
+            text-align: center;
+            transition: color .1s ease-in 0;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            color: #2291f0;
+          }
+        }
+        .icon-edit:before {
+          content: "\f464";
+        }
+        .icon-trash:before {
+          content: "\f182";
+        }
+        //&.edit .icon-edit, &.trash .icon-trash {
+        //  //background-image: url(../../../images/glyphicons-halflings-white.png) !important;
+        //  &:before {
+        //
+        //  }
+        //}
+
+      }
+      a {
+        &.edit:hover, &.trash:hover {
+          opacity: 1;
+        }
+      }
+    }
+    &:hover .dd-content .icon-chevron-right {
+      display: none;
+    }
+  }
+  .active .icon-chevron-right {
+    //background-image: url(../../../images/glyphicons-halflings-white.png);
+    opacity: 1;
+  }
+}
+.wpfddropzoom > .dd3-handle > .wpfd-folder {
+  color: #2291f0;
+}
+.dd-content-hover {
+  background: rgba(34, 145, 240, 0.1);
+  a.t {
+    color: #2291f0;
+    position: relative;
+    z-index: 999;
+  }
+  span.countfile {
+    color: #2291f0;
+  }
+}

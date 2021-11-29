@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form class="wpfdparams" method="POST" action="admin.php?page=wpfd-config&amp;task=config.savestatisticsconfig">
+    <input
+            type="heading"
+            label="Statistics"
+            value=""
+            class="inputbox input-block-level"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="ga_download_tracking"
+            type="switcher"
+            label="GA download tracking"
+            value="0"
+            class="inputbox input-block-level ju-input"
+
+            tooltip="Track download using Google Analytics. Analytics tracking code must be already loaded in WordPress"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </input>
+    <input
+            name="track_user_download"
+            type="switcher"
+            label="Track user download"
+            value="0"
+            class="inputbox input-block-level ju-input"
+
+            tooltip="Track user download (what file is downloaded per user account). If you're making available your file in EU region, you may add some notice related to the GDPR for your customers."
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </input>
+    <input
+            name="statistics_storage"
+            id="statistics_storage"
+            type="statisticsstorage"
+            label="Statistics storage"
+            value="0"
+            class="ju-input"
+            tooltip="Define the duration of the download statistics storage. Note that Forever option may generate huge database tables."
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="forever">Forever!</option>
+        <option value="years">Year(s)</option>
+        <option value="months">Month(s)</option>
+        <option value="days">Day(s)</option>
+    </input>
+    <input type="hidden" name="statistics_storage_times" value="" namespace="Joomunited\WP_File_Download\Admin\Fields\"/>
+    <input type="hidden" name="statistics_storage_duration" value="forever" namespace="Joomunited\WP_File_Download\Admin\Fields\"/>
+    <button
+            type="submit"
+            value="Save"
+            class="ju-button orange-button"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+</form>

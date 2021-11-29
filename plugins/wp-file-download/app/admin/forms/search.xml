@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form class="wpfdparams" id="search_config" method="POST"
+      action="admin.php?page=wpfd-config&amp;task=config.savesearchparams">
+    <input
+            type="heading"
+            label="Search setting"
+            value=""
+            class="inputbox input-block-level"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="search_page"
+            id="search_page"
+            type="page"
+            label="Search page"
+            value=""
+            class="inputbox input-block-level"
+            tooltip="Default page used to display search results"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="include_global_search"
+            type="switcher"
+            label="Include files in wordpress search"
+            value="1"
+            class="inputbox input-block-level"
+            required="true"
+            tooltip="Include files in wordpress search results list. Just title of file are searchable"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="0">Off</option>
+        <option value="1">On</option>
+    </input>
+    <input
+            name="plain_text_search"
+            type="Plaintextsearch"
+            label="Plain text search"
+            value="0"
+            class="inputbox input-block-level"
+            required="true"
+            tooltip="Activate the plain text search in document like Word or PDF. Caution, depending on your server and documents, it may slow down the search queries"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="0">Off</option>
+        <option value="1">On</option>
+    </input>
+
+    <button
+            type="submit"
+            value="Save"
+            class="ju-button orange-button"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+</form>

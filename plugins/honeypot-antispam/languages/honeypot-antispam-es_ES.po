@@ -1,0 +1,66 @@
+# Copyright (C) 2020 Raiola Networks
+# This file is distributed under the same license as the Honeypot Antispam plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Honeypot Antispam 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/Honeypot "
+"Antispam\n"
+"POT-Creation-Date: 2020-04-23T16:36:20+00:00\n"
+"PO-Revision-Date: 2020-04-24 22:11+0200\n"
+"Last-Translator: Martin <martin@raiolanetworks.es>\n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Domain: honeypot-antispam\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name of the plugin
+msgid "Honeypot Antispam"
+msgstr "Honeypot Antispam"
+
+#. Plugin URI of the plugin
+msgid "http://wordpress.org/plugins/honeypot-antispam/"
+msgstr "http://wordpress.org/plugins/honeypot-antispam/"
+
+#. Description of the plugin
+msgid "No spam in comments. No captcha."
+msgstr "Protege WordPress del SPAM mediante honeypot."
+
+#. Author of the plugin
+msgid "Raiola Networks"
+msgstr "Raiola Networks"
+
+#. Author URI of the plugin
+msgid "https://raiolanetworks.es/"
+msgstr "https://raiolanetworks.es/"
+
+#: honeypot-antispam-info.php:21 honeypot-antispam-settings.php:74
+msgid "spam comments were blocked by"
+msgstr "comentarios de spam han sido bloqueados por"
+
+#: honeypot-antispam-info.php:21 honeypot-antispam-settings.php:74
+msgid "plugin so far"
+msgstr "por ahora"
+
+#: honeypot-antispam-settings.php:23
+msgid "Save spam comments"
+msgstr "Guardar spam"
+
+#: honeypot-antispam-settings.php:55
+msgid "Save spam comments into spam section"
+msgstr "Guadar comentarios de spam en la sección de spam"
+
+#: honeypot-antispam-settings.php:56
+msgid "Useful for testing how the plugin works"
+msgstr "Útil para comprobar el funcionamiento del plugin"
+
+#: honeypot-antispam-settings.php:56
+msgid "View spam section"
+msgstr "Ver sección de spam"
+
+#: honeypot-antispam.php:91
+msgid "Honeypot Antispam - Support"
+msgstr "Honeypot Antispam - Soporte"

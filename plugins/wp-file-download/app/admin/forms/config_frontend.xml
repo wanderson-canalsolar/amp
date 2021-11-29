@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form class="wpfdparams" method="POST" action="admin.php?page=wpfd-config&amp;task=config.savefrontendconfig">
+    <input
+            type="heading"
+            label="Frontend"
+            value=""
+            class="inputbox input-block-level"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="extension_viewer"
+            type="textarea"
+            label="Extensions to open with viewer"
+            value="png,jpg,pdf,ppt,pptx,doc,docx,xls,xlsx,dxf,ps,eps,xps,psd,tif,tiff,bmp,svg,pages,ai,dxf,ttf,txt,mp3,mp4"
+            class="inputbox input-block-level ju-input ju-large-text"
+
+            tooltip="Allow or limit file format to be previewed"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="open_pdf_in"
+            type="switcher"
+            label="Open PDF in browser"
+            value="0"
+            class="inputbox input-block-level ju-input"
+
+            tooltip="Open PDF in a new browser tab instead of the Google drive viewer"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+
+    <input
+            name="defaultthemepercategory"
+            type="theme"
+            label="Default theme per category"
+            value="default"
+            class="inputbox input-block-level ju-input"
+            tooltip="If theme per category is set to No above, select a theme to apply to all your categories by default"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="icon_set"
+            type="select2"
+            label="Icon set"
+            value="0"
+            class="inputbox input-block-level ju-input"
+
+            tooltip="The icons set use in themes"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="default">Default</option>
+        <option value="png">Png</option>
+        <option value="svg">Svg</option>
+    </input>
+    <input
+            name="use_google_viewer"
+            type="select2"
+            label="File previewer"
+            value="lightbox"
+            class="inputbox input-block-level ju-input"
+
+            tooltip="File preview can be done by the Google previewer or the JoomUnited previewer. Choose how the file preview will be opened"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="lightbox">Open in a lightbox</option>
+        <option value="tab">Open in a new tab</option>
+        <option value="no">No</option>
+    </input>
+    <input
+            name="catparameters"
+            type="switcher"
+            label="Theme per categories"
+            value="1"
+            class="inputbox input-block-level ju-input"
+
+            tooltip="Possbility to change and configure theme in each file category"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </input>
+    <input
+            name="secure_preview_file"
+            type="hidden"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="auto_generate_preview"
+            type="generatepreview"
+            label="JoomUnited previewer server"
+            value="0"
+            class="inputbox input-block-level"
+            required="false"
+            tooltip="Generate file preview automatically using external server. Support file types: ai, csv, doc, docx, html, json, odp, ods, pdf, ppt, pptx, rtf, sketch, xd, xls, xlsx, xml. If the format is not supported, we'll use the Google previewer. This file count does not take in consideration the cloud files."
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="0">Off</option>
+        <option value="1">On</option>
+    </input>
+    <input
+            name="uri"
+            id="uri"
+            type="Seourl"
+            label="SEO URL"
+            value="download"
+            class="inputbox input-block-level ju-input ju-large-text"
+
+            tooltip="Prefix placed in all the file download URL"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+    <input
+            name="rmdownloadext"
+            type="hidden"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="date_format"
+            type="text2"
+            label="Date format"
+            help="&lt;a href='https://wordpress.org/support/article/formatting-date-and-time/' target='__blank' &gt;Date Format&lt;/a&gt;"
+            value="d-m-Y"
+            class="inputbox input-block-level ju-input ju-large-text"
+
+            tooltip="Upload and modified file date format"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+    </input>
+
+
+
+
+    <input
+            name="download_category"
+            type="switcher"
+            label="Download category"
+            value="0"
+            class="inputbox input-block-level ju-input"
+
+            tooltip="Allow users to download all the files from a category as a global .zip file using a button"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </input>
+    <input
+            name="download_selected"
+            type="switcher"
+            label="Download file selection"
+            value="0"
+            class="inputbox input-block-level ju-input"
+
+            tooltip="Users can make a file selection using checkboxes them download them as .zip file. Not applicable to cloud file categories"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </input>
+    <input
+            name="custom_icon"
+            type="switcher"
+            label="Custom icon"
+            value="1"
+            class="inputbox input-block-level ju-input"
+
+            tooltip="Possibility to upload a custom image or icon for single files"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </input>
+    <input
+            name="paginationnunber"
+            type="select2"
+            label="Pagination number"
+            value="100"
+            class="inputbox input-block-level ju-input"
+
+            tooltip="Display the number of files per page"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="50">50</option>
+        <option value="100">100</option>
+    </input>
+    <input
+            name="enablewpfd"
+            type="switcher"
+            label="Load the plugin on frontend"
+            value="0"
+            class="inputbox input-block-level ju-input"
+
+            tooltip="Load the plugin in page builder on frontend"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </input>
+    <input
+            name="show_empty_folder"
+            type="switcher"
+            label="Display empty folders"
+            value="0"
+            class="inputbox input-block-level ju-input"
+
+            tooltip="Display empty folders on frontend"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </input>
+
+    <input
+            name="not_authorized_page"
+            id="not_authorized_page"
+            type="page"
+            label="Redirect not authorized user"
+            value=""
+            class="inputbox input-block-level ju-input ju-multiselect"
+            tooltip="Redirect not authorized user to this page. Default blank"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="use_xsendfile"
+            type="switcherxsendfile"
+            label="Use X-Sendfile"
+            value="0"
+            class="inputbox input-block-level ju-input"
+
+            tooltip="Download by X-SendFile on Apache server"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </input>
+
+    <button
+            type="submit"
+            value="Save"
+            class="ju-button orange-button"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+</form>

@@ -1,0 +1,1119 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Salient\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-11 18:18+0000\n"
+"PO-Revision-Date: 2020-08-30 17:11+0000\n"
+"Last-Translator: \n"
+"Language-Team: Português do Brasil\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.3; wp-5.5"
+
+#: ../salient/nectar/options/fields/color_gradient/field_color_gradient.php:35
+msgid " To:"
+msgstr "Para"
+
+#: ../salient/comments.php:20 ../salient/nectar/helpers/page-header.php:400
+#: ../salient/nectar/helpers/page-header.php:411
+#: ../salient/includes/partials/single-post/post-header-no-img-regular.php:94
+#: ../salient/includes/partials/single-post/post-header-no-img-regular.php:104
+#: ../salient/includes/partials/single-post/post-meta-bar-ascend-skin.php:41
+#: ../salient/includes/partials/blog/styles/masonry-classic/post-meta-header.php:23
+#: ../salient/includes/partials/blog/styles/standard-classic/entry-video.php:49
+#: ../salient/includes/partials/blog/styles/standard-classic/entry-audio.php:49
+#: ../salient/includes/partials/blog/styles/standard-classic/entry-gallery.php:49
+#: ../salient/includes/partials/blog/styles/standard-classic/entry.php:49
+msgid "% Comments"
+msgstr "% comentários"
+
+#: ../salient/nectar/helpers/wpbakery-init.php:66
+#: ../salient/nectar/helpers/wpbakery-init.php:295
+msgid "1 column - 1/12"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:75
+#: ../salient/nectar/helpers/wpbakery-init.php:304
+msgid "10 columns - 5/6"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:76
+#: ../salient/nectar/helpers/wpbakery-init.php:305
+msgid "11 columns - 11/12"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:77
+#: ../salient/nectar/helpers/wpbakery-init.php:306
+msgid "12 columns - 1/1"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:67
+#: ../salient/nectar/helpers/wpbakery-init.php:296
+msgid "2 columns - 1/6"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:78
+#: ../salient/nectar/helpers/wpbakery-init.php:307
+msgid "20% - 1/5"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:68
+#: ../salient/nectar/helpers/wpbakery-init.php:297
+msgid "3 columns - 1/4"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:69
+#: ../salient/nectar/helpers/wpbakery-init.php:298
+msgid "4 columns - 1/3"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:79
+#: ../salient/nectar/helpers/wpbakery-init.php:308
+msgid "40% - 2/5"
+msgstr ""
+
+#: ../salient/404.php:47
+msgid "404"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:70
+#: ../salient/nectar/helpers/wpbakery-init.php:299
+msgid "5 columns - 5/12"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:71
+#: ../salient/nectar/helpers/wpbakery-init.php:300
+msgid "6 columns - 1/2"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:80
+#: ../salient/nectar/helpers/wpbakery-init.php:309
+msgid "60% - 3/5"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:72
+#: ../salient/nectar/helpers/wpbakery-init.php:301
+msgid "7 columns - 7/12"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:73
+#: ../salient/nectar/helpers/wpbakery-init.php:302
+msgid "8 columns - 2/3"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:81
+#: ../salient/nectar/helpers/wpbakery-init.php:310
+msgid "80% - 4/5"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:74
+#: ../salient/nectar/helpers/wpbakery-init.php:303
+msgid "9 columns - 3/4"
+msgstr ""
+
+#: ../salient/includes/partials/single-post/author-bio-ascend-skin.php:39
+#: ../salient/includes/partials/single-post/author-bio.php:43
+msgid "About"
+msgstr "Sobre"
+
+#: ../salient/nectar/helpers/wpbakery-init.php:232
+#: ../salient/nectar/helpers/wpbakery-init.php:455
+msgid ""
+"Add parallax type background for row (Note: If no image is specified, "
+"parallax will use background image from Design Options)."
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:217
+#: ../salient/nectar/helpers/wpbakery-init.php:440
+msgid "Add parallax type background for row."
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:202
+#: ../salient/nectar/helpers/wpbakery-init.php:425
+msgid "Add YouTube link."
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:92
+#: ../salient/nectar/helpers/wpbakery-init.php:321
+msgid ""
+"Adjust column for different screen sizes. Control width, offset and "
+"visibility settings."
+msgstr ""
+
+#: ../salient/template-portfolio.php:96 ../salient/template-portfolio.php:99
+#: ../salient/nectar/helpers/page-header.php:463
+#: ../salient/nectar/helpers/page-header.php:665
+msgid "All"
+msgstr "Tudo"
+
+#: ../salient/template-portfolio.php:1500
+#: ../salient/template-portfolio.php:1522
+#: ../salient/nectar/helpers/pagination.php:180
+msgid "All items loaded"
+msgstr ""
+
+#: ../salient/nectar/helpers/page-header.php:689
+msgid "All Posts By"
+msgstr ""
+
+#: ../salient/nectar/helpers/page-header.php:717
+msgid "Archives"
+msgstr ""
+
+#: ../salient/includes/partials/single-post/author-bio-ascend-skin.php:39
+#: ../salient/includes/partials/single-post/author-bio.php:43
+msgid "Author"
+msgstr "Autor"
+
+#: ../salient/includes/partials/footer/off-canvas-navigation.php:66
+msgid "Back"
+msgstr "Voltar"
+
+#: ../salient/404.php:51
+msgid "Back Home"
+msgstr "Voltar para início"
+
+#: ../salient/template-home-4.php:78 ../salient/template-home-2.php:84
+#: ../salient/template-home-1.php:78 ../salient/template-home-3.php:82
+msgid "Back to Video"
+msgstr ""
+
+#: ../salient/nectar/welcome/welcome-page.php:121
+msgid "Begin Installing Plugins"
+msgstr ""
+
+#: ../salient/nectar/plugin-notices/salient-plugin-notices.php:81
+msgid "Begin Installing/Activating Plugins"
+msgstr ""
+
+#: ../salient/search.php:85
+#: ../salient/nectar/assets/functions/ajax-search/wp-search-suggest.php:70
+msgid "Blog Post"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:131
+#: ../salient/nectar/helpers/wpbakery-init.php:384
+#: ../salient/nectar/helpers/wpbakery-init.php:408
+msgid "Bottom"
+msgstr ""
+
+#: ../salient/nectar/helpers/nav-menus.php:213
+msgid "Button Accent Color"
+msgstr ""
+
+#: ../salient/nectar/helpers/nav-menus.php:215
+msgid "Button Bordered Accent Color"
+msgstr ""
+
+#: ../salient/nectar/helpers/nav-menus.php:216
+msgid "Button Bordered Extra Color #1"
+msgstr ""
+
+#: ../salient/nectar/helpers/nav-menus.php:214
+msgid "Button Extra Color #1"
+msgstr ""
+
+#: ../salient/nectar/helpers/page-header.php:386
+#: ../salient/includes/partials/single-post/post-header-no-img-regular.php:80
+#: ../salient/includes/partials/blog/styles/masonry-classic/post-meta-header.php:20
+#: ../salient/includes/partials/blog/styles/standard-classic/entry-video.php:44
+#: ../salient/includes/partials/blog/styles/standard-classic/entry-audio.php:44
+#: ../salient/includes/partials/blog/styles/standard-classic/entry-gallery.php:44
+#: ../salient/includes/partials/blog/styles/standard-classic/entry.php:44
+#: ../salient/includes/partials/blog/styles/masonry-meta-overlaid/entry.php:122
+msgid "By"
+msgstr "Por"
+
+#: ../salient/comments.php:61
+msgid "Cancel Reply"
+msgstr "Cancelar"
+
+#: ../salient/nectar/helpers/page-header.php:694
+msgid "Category"
+msgstr "Categoria"
+
+#: ../salient/nectar/meta/category-meta.php:41
+msgid "Category Color"
+msgstr ""
+
+#: ../salient/nectar/meta/category-meta.php:30
+#: ../salient/nectar/meta/category-meta.php:132
+msgid "Category Header Image"
+msgstr ""
+
+#: ../salient/nectar/meta/category-meta.php:19
+msgid "Category Thumbnail Image"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:182
+msgid "Column"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:137
+#: ../salient/nectar/helpers/wpbakery-init.php:351
+msgid "Columns gap"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:379
+msgid "Columns position"
+msgstr ""
+
+#: ../salient/template-home-2.php:281 ../salient/template-home-3.php:424
+msgid "Comments"
+msgstr "Comentários"
+
+#: ../salient/nectar/helpers/wpbakery-init.php:333
+msgid "Content"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:125
+#: ../salient/nectar/helpers/wpbakery-init.php:402
+msgid "Content position"
+msgstr ""
+
+#: ../salient/includes/partials/blog/styles/standard-minimal/entry-video.php:47
+#: ../salient/includes/partials/blog/styles/standard-minimal/entry-audio.php:47
+#: ../salient/includes/partials/blog/styles/standard-minimal/entry-quote.php:47
+#: ../salient/includes/partials/blog/styles/standard-minimal/entry.php:47
+msgid "Continue Reading"
+msgstr "Continue Lendo"
+
+#: ../salient/nectar/helpers/wpbakery-init.php:57
+#: ../salient/nectar/helpers/wpbakery-init.php:172
+#: ../salient/nectar/helpers/wpbakery-init.php:286
+#: ../salient/nectar/helpers/wpbakery-init.php:517
+msgid "CSS box"
+msgstr ""
+
+#: ../salient/nectar/helpers/page-header.php:706
+msgid "Daily Archives"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:128
+#: ../salient/nectar/helpers/wpbakery-init.php:342
+#: ../salient/nectar/helpers/wpbakery-init.php:405
+msgid "Default"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:59
+#: ../salient/nectar/helpers/wpbakery-init.php:174
+#: ../salient/nectar/helpers/wpbakery-init.php:288
+#: ../salient/nectar/helpers/wpbakery-init.php:519
+msgid "Design Options"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:158
+#: ../salient/nectar/helpers/wpbakery-init.php:503
+msgid "Disable row"
+msgstr ""
+
+#: ../salient/nectar/welcome/welcome-page.php:129
+msgid "Documentation"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:44
+#: ../salient/nectar/helpers/wpbakery-init.php:274
+msgid "Element ID"
+msgstr ""
+
+#: ../salient/comments.php:94
+msgid "Email"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:46
+#: ../salient/nectar/helpers/wpbakery-init.php:276
+#, php-format
+msgid ""
+"Enter element ID (Note: make sure it is unique and valid according to <a "
+"href=\"%s\" target=\"_blank\">w3c specification</a>)."
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:114
+#, php-format
+msgid ""
+"Enter optional row ID. Make sure it is unique, and it is valid as w3c "
+"specification: %s (Must not have spaces)"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:254
+#: ../salient/nectar/helpers/wpbakery-init.php:265
+#: ../salient/nectar/helpers/wpbakery-init.php:477
+#: ../salient/nectar/helpers/wpbakery-init.php:488
+msgid "Enter parallax speed ratio (Note: Default value is 1.5, min value is 1)"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:499
+#, php-format
+msgid ""
+"Enter row ID (Note: make sure it is unique and valid according to <a "
+"href=\"%s\" target=\"_blank\">w3c specification</a>)."
+msgstr ""
+
+#: ../salient/nectar/welcome/welcome-page.php:89
+#: ../salient/nectar/plugin-notices/salient-plugin-notices.php:47
+msgid "Envato guidelines"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:118
+#: ../salient/nectar/helpers/wpbakery-init.php:395
+msgid "Equal height"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:50
+#: ../salient/nectar/helpers/wpbakery-init.php:166
+#: ../salient/nectar/helpers/wpbakery-init.php:280
+#: ../salient/nectar/helpers/wpbakery-init.php:511
+msgid "Extra class name"
+msgstr ""
+
+#: ../salient/nectar/helpers/page-header.php:367
+#: ../salient/nectar/helpers/page-header.php:392
+#: ../salient/includes/partials/single-post/post-header-no-img-regular.php:86
+#: ../salient/includes/partials/single-post/post-header-no-img-fullscreen.php:75
+msgid "F jS, Y"
+msgstr ""
+
+#: ../salient/nectar/welcome/welcome-page.php:140
+msgid ""
+"Feeling stuck? Head over to the forum and open a ticket so that we may "
+"assist you."
+msgstr ""
+
+#: ../salient/nectar/options/fields/color_gradient/field_color_gradient.php:28
+#: ../salient/nectar/options/fields/color_gradient/field_color_gradient.php:33
+msgid "From:"
+msgstr "De"
+
+#: ../salient/nectar/helpers/wpbakery-init.php:372
+msgid "Full height row?"
+msgstr ""
+
+#: ../salient/nectar/welcome/welcome-page.php:139
+msgid "Get Support"
+msgstr ""
+
+#: ../salient/includes/header-search.php:50
+msgid "Hit enter to search or ESC to close"
+msgstr "Tecle ESC para sair"
+
+#. URI of the theme
+msgid ""
+"https://themeforest.net/item/salient-responsive-multipurpose-theme/4363266"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://themeforest.net/user/themenectar"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:120
+#: ../salient/nectar/helpers/wpbakery-init.php:397
+msgid "If checked columns will be set to equal height."
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:374
+msgid "If checked row will be set to full height."
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:161
+#: ../salient/nectar/helpers/wpbakery-init.php:506
+msgid ""
+"If checked the row won't be visible on the public side of your website. You "
+"can switch it back any time."
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:193
+#: ../salient/nectar/helpers/wpbakery-init.php:416
+msgid "If checked, video will be used as row background."
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:240
+#: ../salient/nectar/helpers/wpbakery-init.php:463
+msgid "Image"
+msgstr "Imagem"
+
+#: ../salient/nectar/plugin-notices/salient-plugin-notices.php:46
+msgid "Important Salient Plugin Notice"
+msgstr ""
+
+#: ../salient/nectar/welcome/welcome-page.php:88
+msgid "Important Update Notice"
+msgstr ""
+
+#: ../salient/includes/partials/blog/styles/standard-minimal/post-author.php:34
+msgid "In"
+msgstr "em"
+
+#: ../salient/nectar/welcome/welcome-page.php:89
+#: ../salient/nectar/plugin-notices/salient-plugin-notices.php:47
+msgid "In accordance with new"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:31
+msgid "Inner Column"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:100
+msgid "Inner Row"
+msgstr ""
+
+#: ../salient/comments.php:20
+msgid "Join the discussion"
+msgstr ""
+
+#: ../salient/comments.php:59
+msgid "Leave a Reply"
+msgstr "Comentar"
+
+#: ../salient/comments.php:60
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Responder para %s"
+
+#: ../salient/nectar/helpers/wpbakery-init.php:114
+msgid "link"
+msgstr ""
+
+#: ../salient/comments.php:74
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+"Logado como <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Sair desta "
+"conta\">Sair?</a>"
+
+#: ../salient/nectar/helpers/header.php:1015
+#: ../salient/includes/partials/header/header-menu.php:66
+#: ../salient/includes/partials/header/header-menu.php:103
+msgid "Menu"
+msgstr ""
+
+#: ../salient/nectar/helpers/nav-menus.php:210
+msgid "Menu Item Style"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:130
+#: ../salient/nectar/helpers/wpbakery-init.php:382
+#: ../salient/nectar/helpers/wpbakery-init.php:407
+msgid "Middle"
+msgstr ""
+
+#: ../salient/nectar/helpers/page-header.php:710
+msgid "Monthly Archives"
+msgstr ""
+
+#: ../salient/nectar/helpers/page-header.php:709
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: ../salient/template-home-1.php:218 ../salient/template-home-3.php:226
+#: ../salient/template-portfolio.php:321
+msgid "More Details"
+msgstr "Mais detalhes"
+
+#: ../salient/template-home-4.php:78 ../salient/template-home-2.php:84
+#: ../salient/template-home-1.php:78 ../salient/template-home-3.php:82
+msgid "More Info"
+msgstr "Mais info"
+
+#: ../salient/nectar/woo/quick-view.php:191
+msgid "More Information"
+msgstr "Mais info"
+
+#: ../salient/includes/partials/single-post/author-bio-ascend-skin.php:44
+#: ../salient/includes/partials/single-post/author-bio.php:61
+msgid "More posts by"
+msgstr "Mais artigos de"
+
+#: ../salient/comments.php:53
+msgid "My comment is.."
+msgstr "Meu comentário é"
+
+#: ../salient/comments.php:88
+msgid "Name"
+msgstr "Nome"
+
+#: ../salient/nectar/helpers/header.php:1042
+#: ../salient/includes/partials/header/header-menu.php:65
+#: ../salient/includes/partials/header/header-menu.php:102
+msgid "Navigation Menu"
+msgstr ""
+
+#: ../salient/nectar/helpers/pagination.php:190
+#: ../salient/nectar/helpers/woocommerce.php:326
+msgid "Next"
+msgstr "Próximo"
+
+#: ../salient/nectar/helpers/pagination.php:138
+#: ../salient/nectar/helpers/blog.php:227
+#: ../salient/nectar/helpers/blog.php:256
+msgid "Next Post"
+msgstr "Próximo post"
+
+#: ../salient/comments.php:20 ../salient/template-home-2.php:281
+#: ../salient/template-home-3.php:424
+#: ../salient/nectar/helpers/page-header.php:400
+#: ../salient/nectar/helpers/page-header.php:411
+#: ../salient/includes/partials/single-post/post-header-no-img-regular.php:94
+#: ../salient/includes/partials/single-post/post-header-no-img-regular.php:104
+#: ../salient/includes/partials/single-post/post-meta-bar-ascend-skin.php:41
+#: ../salient/includes/partials/blog/styles/masonry-classic/post-meta-header.php:23
+#: ../salient/includes/partials/blog/styles/standard-classic/entry-video.php:49
+#: ../salient/includes/partials/blog/styles/standard-classic/entry-audio.php:49
+#: ../salient/includes/partials/blog/styles/standard-classic/entry-gallery.php:49
+#: ../salient/includes/partials/blog/styles/standard-classic/entry.php:49
+msgid "No Comments"
+msgstr "Nenhum comentário"
+
+#: ../salient/nectar/helpers/wpbakery-init.php:213
+#: ../salient/nectar/helpers/wpbakery-init.php:228
+#: ../salient/nectar/helpers/wpbakery-init.php:436
+#: ../salient/nectar/helpers/wpbakery-init.php:451
+msgid "None"
+msgstr "Nenhum"
+
+#: ../salient/comments.php:20 ../salient/template-home-2.php:281
+#: ../salient/template-home-3.php:424
+msgid "One Comment"
+msgstr "Um comentário"
+
+#: ../salient/nectar/helpers/page-header.php:400
+#: ../salient/nectar/helpers/page-header.php:411
+#: ../salient/includes/partials/single-post/post-header-no-img-regular.php:94
+#: ../salient/includes/partials/single-post/post-header-no-img-regular.php:104
+#: ../salient/includes/partials/single-post/post-meta-bar-ascend-skin.php:41
+#: ../salient/includes/partials/blog/styles/masonry-classic/post-meta-header.php:23
+#: ../salient/includes/partials/blog/styles/standard-classic/entry-video.php:49
+#: ../salient/includes/partials/blog/styles/standard-classic/entry-audio.php:49
+#: ../salient/includes/partials/blog/styles/standard-classic/entry-gallery.php:49
+#: ../salient/includes/partials/blog/styles/standard-classic/entry.php:49
+msgid "One Comment "
+msgstr "Um comentário"
+
+#: ../salient/nectar/welcome/welcome-page.php:141
+msgid "Open Support Forum"
+msgstr ""
+
+#: ../salient/nectar/welcome/welcome-page.php:99
+#: ../salient/nectar/welcome/welcome-page.php:102
+#: ../salient/nectar/welcome/welcome-page.php:105
+#: ../salient/nectar/welcome/welcome-page.php:108
+#: ../salient/nectar/welcome/welcome-page.php:111
+#: ../salient/nectar/welcome/welcome-page.php:114
+#: ../salient/nectar/welcome/welcome-page.php:117
+#: ../salient/nectar/plugin-notices/salient-plugin-notices.php:59
+#: ../salient/nectar/plugin-notices/salient-plugin-notices.php:62
+#: ../salient/nectar/plugin-notices/salient-plugin-notices.php:65
+#: ../salient/nectar/plugin-notices/salient-plugin-notices.php:68
+#: ../salient/nectar/plugin-notices/salient-plugin-notices.php:71
+#: ../salient/nectar/plugin-notices/salient-plugin-notices.php:74
+#: ../salient/nectar/plugin-notices/salient-plugin-notices.php:77
+msgid "Optional"
+msgstr ""
+
+#: ../salient/nectar/redux-framework/ReduxCore/templates/panel/header.tpl.php:73
+msgid "Options Panel"
+msgstr ""
+
+#: ../salient/search.php:103
+#: ../salient/nectar/assets/functions/ajax-search/wp-search-suggest.php:74
+msgid "Page"
+msgstr "Página"
+
+#: ../salient/404.php:48
+msgid "Page Not Found"
+msgstr "Página não encontrada"
+
+#: ../salient/nectar/helpers/wpbakery-init.php:210
+#: ../salient/nectar/helpers/wpbakery-init.php:225
+#: ../salient/nectar/helpers/wpbakery-init.php:433
+#: ../salient/nectar/helpers/wpbakery-init.php:448
+msgid "Parallax"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:251
+#: ../salient/nectar/helpers/wpbakery-init.php:262
+#: ../salient/nectar/helpers/wpbakery-init.php:474
+#: ../salient/nectar/helpers/wpbakery-init.php:485
+msgid "Parallax speed"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:187
+msgid "Place content elements inside the column"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:40
+msgid "Place content elements inside the inner column"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:108
+msgid "Place content elements inside the inner row"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:335
+msgid "Place content elements inside the row"
+msgstr ""
+
+#: ../salient/search.php:171
+msgid "Please try again with different keywords."
+msgstr ""
+
+#: ../salient/search.php:126
+#: ../salient/nectar/assets/functions/ajax-search/wp-search-suggest.php:78
+msgid "Portfolio Item"
+msgstr ""
+
+#: ../salient/includes/header-search.php:48
+msgid "Press enter to begin your search"
+msgstr ""
+
+#: ../salient/nectar/helpers/pagination.php:189
+#: ../salient/nectar/helpers/woocommerce.php:325
+msgid "Previous"
+msgstr "Anterior"
+
+#: ../salient/nectar/helpers/pagination.php:138
+#: ../salient/nectar/helpers/blog.php:202
+#: ../salient/nectar/helpers/blog.php:254
+msgid "Previous Post"
+msgstr ""
+
+#: ../salient/search.php:140
+#: ../salient/nectar/assets/functions/ajax-search/wp-search-suggest.php:88
+msgid "Product"
+msgstr ""
+
+#: ../salient/woocommerce/checkout/review-order.php:43
+msgid "Quantity: "
+msgstr ""
+
+#: ../salient/nectar/woo/quick-view.php:57
+msgid "Quick View"
+msgstr ""
+
+#: ../salient/includes/partials/single-post/post-content.php:106
+#: ../salient/includes/partials/blog/styles/standard-minimal/entry-video.php:57
+#: ../salient/includes/partials/blog/styles/standard-minimal/entry-audio.php:57
+#: ../salient/includes/partials/blog/styles/standard-minimal/entry-quote.php:57
+#: ../salient/includes/partials/blog/styles/standard-minimal/entry.php:57
+#: ../salient/includes/partials/blog/styles/masonry-classic/entry-video.php:55
+#: ../salient/includes/partials/blog/styles/masonry-classic/entry-video.php:65
+#: ../salient/includes/partials/blog/styles/masonry-classic/entry-audio.php:55
+#: ../salient/includes/partials/blog/styles/masonry-classic/entry-audio.php:65
+#: ../salient/includes/partials/blog/styles/masonry-classic/entry-gallery.php:55
+#: ../salient/includes/partials/blog/styles/masonry-classic/entry-gallery.php:65
+#: ../salient/includes/partials/blog/styles/masonry-classic/entry.php:53
+#: ../salient/includes/partials/blog/styles/masonry-classic/entry.php:63
+#: ../salient/includes/partials/blog/styles/standard-classic/entry-video.php:59
+#: ../salient/includes/partials/blog/styles/standard-classic/entry-video.php:69
+#: ../salient/includes/partials/blog/styles/standard-classic/entry-audio.php:59
+#: ../salient/includes/partials/blog/styles/standard-classic/entry-audio.php:69
+#: ../salient/includes/partials/blog/styles/standard-classic/entry-gallery.php:59
+#: ../salient/includes/partials/blog/styles/standard-classic/entry-gallery.php:69
+#: ../salient/includes/partials/blog/styles/standard-classic/entry.php:59
+#: ../salient/includes/partials/blog/styles/standard-classic/entry.php:69
+msgid "Read More"
+msgstr "Leia"
+
+#: ../salient/nectar/helpers/blog.php:339
+msgid "Recommended For You"
+msgstr ""
+
+#: ../salient/nectar/helpers/blog.php:323
+#: ../salient/nectar/helpers/blog.php:328
+msgid "Related Posts"
+msgstr "Conteúdo relacionado"
+
+#: ../salient/nectar/meta/category-meta.php:25
+#: ../salient/nectar/meta/category-meta.php:36
+#: ../salient/nectar/meta/category-meta.php:138
+#: ../salient/nectar/options/fields/upload/field_upload.php:31
+#: ../salient/nectar/redux-framework/ReduxCore/inc/fields/upload/field_upload.php:31
+msgid "Remove Upload"
+msgstr ""
+
+#: ../salient/nectar/welcome/welcome-page.php:93
+#: ../salient/nectar/welcome/welcome-page.php:96
+#: ../salient/nectar/plugin-notices/salient-plugin-notices.php:53
+#: ../salient/nectar/plugin-notices/salient-plugin-notices.php:56
+msgid "Required"
+msgstr "Obrigatório"
+
+#: ../salient/nectar/helpers/wpbakery-init.php:83
+#: ../salient/nectar/helpers/wpbakery-init.php:91
+#: ../salient/nectar/helpers/wpbakery-init.php:312
+#: ../salient/nectar/helpers/wpbakery-init.php:320
+msgid "Responsive Options"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:89
+#: ../salient/nectar/helpers/wpbakery-init.php:318
+msgid "Responsiveness"
+msgstr ""
+
+#: ../salient/search.php:42
+msgid "Results For"
+msgstr ""
+
+#: ../salient/search.php:45
+msgid "results found"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:328
+msgid "Row"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:112
+#: ../salient/nectar/helpers/wpbakery-init.php:497
+msgid "Row ID"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:339
+msgid "Row stretch"
+msgstr ""
+
+#. Name of the theme
+msgid "Salient Child Theme"
+msgstr ""
+
+#: ../salient/nectar/welcome/welcome-page.php:96
+#: ../salient/nectar/plugin-notices/salient-plugin-notices.php:56
+msgid "Salient Core"
+msgstr ""
+
+#: ../salient/nectar/welcome/welcome-page.php:99
+#: ../salient/nectar/plugin-notices/salient-plugin-notices.php:59
+msgid "Salient Demo Importer"
+msgstr ""
+
+#: ../salient/nectar/welcome/welcome-page.php:135
+msgid ""
+"Salient has been going strong for over 6 years and is constantly evolving. "
+msgstr ""
+
+#: ../salient/nectar/plugin-notices/salient-plugin-notices.php:47
+msgid ""
+"Salient has separated all of the custom post types and plugin territory "
+"functionality into individual plugins. Please install and activate the "
+"required plugins and any of the desired optional plugins which you wish to "
+"use on your site."
+msgstr ""
+
+#: ../salient/nectar/welcome/welcome-page.php:89
+msgid ""
+"Salient has separated all of the custom post types and plugin territory "
+"functionality into individual plugins. Please install and activate the "
+"required plugins and any of the desired optional plugins which you wish to "
+"use on your site:"
+msgstr ""
+
+#: ../salient/nectar/welcome/welcome-page.php:114
+#: ../salient/nectar/plugin-notices/salient-plugin-notices.php:74
+msgid "Salient Home Slider"
+msgstr ""
+
+#: ../salient/nectar/welcome/welcome-page.php:111
+#: ../salient/nectar/plugin-notices/salient-plugin-notices.php:71
+msgid "Salient Nectar Slider"
+msgstr ""
+
+#: ../salient/nectar/welcome/welcome-page.php:108
+#: ../salient/nectar/plugin-notices/salient-plugin-notices.php:68
+msgid "Salient Portfolio"
+msgstr ""
+
+#: ../salient/nectar/welcome/welcome-page.php:117
+#: ../salient/nectar/plugin-notices/salient-plugin-notices.php:77
+msgid "Salient Shortcodes"
+msgstr ""
+
+#: ../salient/nectar/welcome/welcome-page.php:102
+#: ../salient/nectar/plugin-notices/salient-plugin-notices.php:62
+msgid "Salient Social"
+msgstr ""
+
+#: ../salient/nectar/welcome/welcome-page.php:105
+#: ../salient/nectar/plugin-notices/salient-plugin-notices.php:65
+msgid "Salient Widgets"
+msgstr ""
+
+#: ../salient/nectar/welcome/welcome-page.php:93
+#: ../salient/nectar/plugin-notices/salient-plugin-notices.php:53
+msgid "Salient WPBakery Page Builder"
+msgstr ""
+
+#: ../salient/nectar/woo/admin-notices.php:13
+msgid "salient/woocommerce/cart/cart-shipping.php"
+msgstr ""
+
+#: ../salient/nectar/woo/admin-notices.php:14
+msgid "salient/woocommerce/cart/cart-totals.php"
+msgstr ""
+
+#: ../salient/nectar/woo/admin-notices.php:12
+msgid "salient/woocommerce/cart/cart.php"
+msgstr ""
+
+#: ../salient/nectar/woo/admin-notices.php:15
+msgid "salient/woocommerce/cart/shipping-calculator.php"
+msgstr ""
+
+#: ../salient/comments.php:106
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: ../salient/searchform.php:15 ../salient/includes/header-search.php:39
+msgid "Search"
+msgstr "Procurar"
+
+#: ../salient/searchform.php:14
+msgid "Search for:"
+msgstr "Procura por:"
+
+#: ../salient/searchform.php:14
+msgid "Search..."
+msgstr "Procurar..."
+
+#: ../salient/nectar/helpers/wpbakery-init.php:84
+#: ../salient/nectar/helpers/wpbakery-init.php:313
+msgid "Select column width."
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:387
+msgid "Select columns position within row."
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:133
+#: ../salient/nectar/helpers/wpbakery-init.php:410
+msgid "Select content position within columns."
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:154
+#: ../salient/nectar/helpers/wpbakery-init.php:368
+msgid "Select gap between columns in row."
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:243
+#: ../salient/nectar/helpers/wpbakery-init.php:466
+msgid "Select image from media library."
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:347
+msgid ""
+"Select stretching options for row and content (Note: stretched may not work "
+"properly if parent container has \"overflow: hidden\" CSS property)."
+msgstr ""
+
+#: ../salient/nectar/helpers/blog.php:332
+msgid "Similar Posts"
+msgstr "Posts relacionados"
+
+#: ../salient/nectar/helpers/wpbakery-init.php:214
+#: ../salient/nectar/helpers/wpbakery-init.php:229
+#: ../salient/nectar/helpers/wpbakery-init.php:437
+#: ../salient/nectar/helpers/wpbakery-init.php:452
+msgid "Simple"
+msgstr ""
+
+#: ../salient/search.php:170
+msgid "Sorry, no results were found."
+msgstr ""
+
+#: ../salient/template-portfolio.php:98
+#: ../salient/nectar/helpers/page-header.php:461
+#: ../salient/nectar/helpers/page-header.php:662
+msgid "Sort Portfolio"
+msgstr ""
+
+#: ../salient/nectar/helpers/nav-menus.php:212
+msgid "Standard"
+msgstr ""
+
+#: ../salient/includes/header-search.php:43
+msgid "Start Typing..."
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:385
+msgid "Stretch"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:343
+msgid "Stretch row"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:344
+msgid "Stretch row and content"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:345
+msgid "Stretch row and content (no paddings)"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:53
+#: ../salient/nectar/helpers/wpbakery-init.php:168
+#: ../salient/nectar/helpers/wpbakery-init.php:282
+#: ../salient/nectar/helpers/wpbakery-init.php:513
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
+msgstr ""
+
+#: ../salient/comments.php:62
+msgid "Submit Comment"
+msgstr "Enviar comentário"
+
+#: ../salient/nectar/helpers/page-header.php:699
+msgid "Tag"
+msgstr ""
+
+#: ../salient/includes/partials/single-post/post-content.php:111
+msgid "Tags:"
+msgstr ""
+
+#: ../salient/nectar/welcome/welcome-page.php:74
+msgid "Thank you for choosing Salient as your WordPress theme!"
+msgstr ""
+
+#: ../salient/nectar/plugin-notices/salient-plugin-notices.php:49
+msgid "The following Salient plugins are not installed or activated: "
+msgstr ""
+
+#. Author of the theme
+msgid "ThemeNectar"
+msgstr ""
+
+#: ../salient/nectar/woo/admin-notices.php:10
+msgid ""
+"There are some outdated WooCommerce template files in your salient theme "
+"directory that are likely lingering around from a previous version of the "
+"theme. Salient no longer includes any files in the salient/woocommerce/cart "
+"directory. Please ensure none of the following files are present in your "
+"theme directory (wp-content/themes/salient)."
+msgstr ""
+
+#. Description of the theme
+msgid "This is a custom child theme for Salient"
+msgstr ""
+
+#: ../salient/nectar/options/fields/color_gradient/field_color_gradient.php:29
+msgid "To:"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:129
+#: ../salient/nectar/helpers/wpbakery-init.php:383
+#: ../salient/nectar/helpers/wpbakery-init.php:406
+msgid "Top"
+msgstr ""
+
+#: ../salient/nectar/meta/category-meta.php:24
+#: ../salient/nectar/meta/category-meta.php:35
+#: ../salient/nectar/meta/category-meta.php:137
+#: ../salient/nectar/options/fields/upload/field_upload.php:30
+#: ../salient/nectar/redux-framework/ReduxCore/inc/fields/upload/field_upload.php:30
+msgid "Upload"
+msgstr ""
+
+#: ../salient/nectar/helpers/pagination.php:65
+#, php-format
+msgid "Use commas instead of %s to separate excluded categories."
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:191
+#: ../salient/nectar/helpers/wpbakery-init.php:414
+msgid "Use video background?"
+msgstr ""
+
+#: ../salient/includes/partials/single-post/post-header-no-img-regular.php:61
+#: ../salient/includes/partials/single-post/post-header-no-img-fullscreen.php:53
+#, php-format
+msgid "View all posts in %s"
+msgstr "Ver todos os posts em %s"
+
+#: ../salient/nectar/welcome/welcome-page.php:136
+msgid "View Changelog"
+msgstr ""
+
+#: ../salient/nectar/welcome/welcome-page.php:131
+msgid "View Documentation"
+msgstr ""
+
+#: ../salient/template-home-1.php:215 ../salient/template-home-3.php:223
+#: ../salient/template-portfolio.php:317
+msgid "View Larger"
+msgstr ""
+
+#: ../salient/nectar/welcome/welcome-page.php:130
+msgid "View our online user guide and documentation to get started."
+msgstr ""
+
+#: ../salient/nectar/helpers/woocommerce.php:743
+msgid "was successfully added to your cart."
+msgstr ""
+
+#: ../salient/comments.php:101
+msgid "Website"
+msgstr ""
+
+#: ../salient/nectar/welcome/welcome-page.php:51
+#: ../salient/nectar/welcome/welcome-page.php:52
+msgid "Welcome To Salient"
+msgstr ""
+
+#: ../salient/nectar/welcome/welcome-page.php:72
+msgid "Welcome to Salient"
+msgstr ""
+
+#: ../salient/nectar/welcome/welcome-page.php:134
+msgid "What's New"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:63
+#: ../salient/nectar/helpers/wpbakery-init.php:292
+msgid "Width"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:215
+#: ../salient/nectar/helpers/wpbakery-init.php:230
+#: ../salient/nectar/helpers/wpbakery-init.php:438
+#: ../salient/nectar/helpers/wpbakery-init.php:453
+msgid "With fade"
+msgstr ""
+
+#: ../salient/nectar/helpers/page-header.php:714
+msgid "Yearly Archives"
+msgstr ""
+
+#: ../salient/nectar/helpers/page-header.php:713
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:121
+#: ../salient/nectar/helpers/wpbakery-init.php:162
+#: ../salient/nectar/helpers/wpbakery-init.php:194
+#: ../salient/nectar/helpers/wpbakery-init.php:375
+#: ../salient/nectar/helpers/wpbakery-init.php:398
+#: ../salient/nectar/helpers/wpbakery-init.php:417
+#: ../salient/nectar/helpers/wpbakery-init.php:507
+msgid "Yes"
+msgstr "Sim"
+
+#: ../salient/nectar/helpers/blog.php:336
+msgid "You May Also Like"
+msgstr "Você pode gostar também"
+
+#: ../salient/comments.php:68
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../salient/nectar/helpers/wpbakery-init.php:198
+#: ../salient/nectar/helpers/wpbakery-init.php:421
+msgid "YouTube link"
+msgstr ""

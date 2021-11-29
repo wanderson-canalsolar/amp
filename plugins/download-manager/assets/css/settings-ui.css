@@ -1,0 +1,110 @@
+#wpbody {
+    margin-left: -19px;
+}
+#wpdm-admin-page-header{
+    width: calc(100% - 160px);
+    position: fixed;
+    z-index: 99;
+}
+#wpdm-admin-main-header{
+    background: #f8fbfd;
+    padding: 0 15px;
+    line-height: 64px;
+    border-bottom: 1px solid #e1e3ee;
+    position: relative;
+    z-index: 991;
+    box-shadow: 0 2px 4px rgba(var(--color-primary-rgb), 0.1);
+}
+.pr-0{ padding-right: 0 !important; }
+#wpdm-admin-main-header .btn-full-height{
+    padding: 0 30px;
+    line-height: 64px;
+    border-radius: 0;
+    font-size: 10pt;
+    margin-top: -1px;
+}
+#wpdm-admin-main-header .btn-full-height i{
+    margin-right: 4px;
+}
+#wpdm-admin-main-header h3{
+    line-height: 64px;
+    padding: 0;
+    margin: 0;
+    font-size: 14pt;
+    font-weight: 600;
+    vertical-align: middle;
+}
+#wpdm-admin-main-header h3 .fas,
+#wpdm-admin-main-header h3 .fa{
+    margin-right: 8px;
+}
+
+#wpdm-admin-main-header .pull-right{
+    margin-top: -1px;
+}
+
+#wpdm-admin-sub-header {
+    background: #ffffff;
+    line-height: 32px;
+    font-size: 12px;
+}
+#wpdm-admin-sub-header .nav.nav-pills,
+#wpdm-admin-sub-header .nav.nav-pills li{
+    padding: 0;
+    margin: 0;
+}
+#wpdm-admin-sub-header .nav.nav-pills{
+    padding-left: 10px;
+    border-bottom: 1px solid #dde1e8;
+}
+#wpdm-admin-sub-header .nav.nav-pills li a {
+    padding: 0 13px;
+    border-radius: 3px;
+    background: transparent !important;
+    color: #444 !important;
+    margin: 10px 2px;
+    position: relative;
+}
+#wpdm-admin-sub-header .nav.nav-pills li a:hover{
+    background: rgb(212, 226, 255) !important;
+}
+#wpdm-admin-sub-header .nav.nav-pills li.active a{
+    color: #fff !important;
+    background: #0e68ff linear-gradient(rgba(14, 104, 255, 0.5), rgba(71, 140, 255, 0.5)) !important;
+    box-shadow: 0 0 10px rgba(0, 88, 255, 0.55) !important;
+}
+#wpdm-admin-sub-header .nav.nav-tabs{
+    padding-left: 15px;
+    padding-top: 18px;
+}
+#wpdm-admin-sub-header .nav.nav-tabs li a{
+    margin-right: 5px;
+}
+#wpdm-admin-sub-header .nav.nav-tabs li.active a{
+    background: #f0f0f1;
+    box-shadow: 0 -3px 6px rgba(var(--color-primary-rgb), 0.2) !important;
+}
+
+.wpdm-admin-page-content {
+    padding: 32px;
+    padding-top: 140px;
+}
+.wpdm-admin-page-content .panel table tfoot th,
+.wpdm-admin-page-content .panel table thead th{
+    background: #f6f6f6 !important;
+    line-height: 32px;
+    vertical-align: middle;
+    font-weight: 600;
+    padding: 10px 15px;
+}
+.wpdm-admin-page-content .panel table td {
+    vertical-align: middle !important;
+    font-weight: 400;
+    padding: 10px 15px !important;
+}
+.wpdm-admin-page-content .panel table tfoot th {
+    border-top: 1px solid #dddddd;
+}
+.wpdm-admin-page-content .table {
+    background: #fff;
+}

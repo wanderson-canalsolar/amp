@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form class="wpfdparams" method="POST" action="admin.php?page=wpfd-config&amp;task=config.saveadminconfig">
+    <input
+            type="heading"
+            label="Admin"
+            value=""
+            class="inputbox input-block-level"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="allowedext"
+            id="allowedext"
+            type="textarea"
+            label="Allowed extensions"
+            value="7z,ace,bz2,dmg,gz,rar,tgz,zip,csv,doc,docx,html,key,keynote,odp,ods,odt,pages,pdf,pps,ppt,pptx,rtf,tex,txt,xls,xlsx,xml,bmp,exif,gif,ico,jpeg,jpg,png,psd,tif,tiff,aac,aif,aiff,alac,amr,au,cdda,flac,m3u,m4a,m4p,mid,mp3,mp4,mpa,ogg,pac,ra,wav,wma,3gp,asf,avi,flv,m4v,mkv,mov,mpeg,mpg,rm,swf,vob,wmv,css,img"
+            class="inputbox input-block-level ju-input ju-large-text"
+
+            tooltip="File format allowed to be uploaded"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="versionlimit"
+            type="versionlimit"
+            label="File history count (0 to 100)"
+            value="5"
+            class="inputbox input-block-level shorttext ju-input ju-large-text"
+
+            tooltip="WP File Download stores history of files when you update them in order to restore them later. Setup the number of version to store per file."
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="maxinputfile"
+            type="maxinputfile"
+            label="Max upload file size (Mb)"
+            value="10"
+            class="inputbox input-block-level ju-input ju-large-text"
+
+            tooltip="Max file size to be uploaded. Check upload_max_filesize and post_max_size in your php.ini if you encounter any problem"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="new_category_position"
+            type="select2"
+            label="New file category position"
+            value="0"
+            class="inputbox input-block-level ju-input"
+
+            tooltip="When creating a new file category: it can be added on top or the end of the list"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="end">At the end</option>
+        <option value="top">On top</option>
+    </input>
+    <input
+            name="categoryown"
+            type="switcher"
+            label="Category owner"
+            value="0"
+            class="inputbox input-block-level ju-input"
+
+            tooltip="Add user as Category owner"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </input>
+
+    <input
+            name="file_count"
+            type="switcher"
+            label="File count"
+            value="0"
+            class="inputbox input-block-level ju-input"
+
+            tooltip="Display the number of files above each file category name"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </input>
+    <input
+            name="restrictfile"
+            type="switcher"
+            label="Single user restriction"
+            value="0"
+            class="inputbox input-block-level ju-input"
+
+            tooltip="Add the possibility to give access to a file for a single user (to pickup from Wordpress users)"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </input>
+    <input
+            name="close_categories"
+            type="switcher"
+            label="Close categories"
+            value="0"
+            class="inputbox input-block-level ju-input"
+
+            tooltip="By default, load all categories and all subcategories with accordion level closed"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+    <input
+            name="shortcodecat"
+            type="switcher"
+            label="Display shortcode in category"
+            value="1"
+            class="inputbox input-block-level ju-input"
+
+            tooltip="Display the shortcode to load a category of files in editor"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </input>
+
+    <input
+            name="useeditor"
+            type="switcher"
+            label="Use WYSIWYG editor"
+            value="0"
+            class="inputbox input-block-level ju-input"
+
+            tooltip="Use WYSIWYG editor in file description"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </input>
+
+    <input
+            name="add_remote_file"
+            type="switcher"
+            label="Add remote file"
+            value="0"
+            class="inputbox input-block-level ju-input"
+
+            tooltip="Add a button to add distant files (not on your server) as dowloadable file"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </input>
+    <input
+            name="admin_theme"
+            type="select2"
+            label="Admin file list theme"
+            value="0"
+            class="ju-input"
+
+            tooltip="Select theme for backend."
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="table">Table - Default</option>
+        <option value="alternative">Alternative - Large</option>
+    </input>
+    <input
+            name="deletefiles"
+            type="switcher"
+            label="Delete all files on uninstall"
+            value="0"
+            class="inputbox input-block-level ju-input"
+
+            tooltip="Caution! If set to Yes, on plugin uninstall all the data will be removed"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+    <button
+            type="submit"
+            value="Save"
+            class="ju-button orange-button"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+</form>

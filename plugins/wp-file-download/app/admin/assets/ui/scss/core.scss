@@ -1,0 +1,86 @@
+@import '../fonts/material-icons.min.css';
+@import 'components/mixin';
+@import 'components/variables';
+:root {font-size: $root-font-size;}
+//@media (min-width: 962px) {
+//  :root {font-size: 15px;}
+//}
+@media (max-width: 961px) {
+  :root {font-size: 14px;}
+}
+//@media (max-width: 1108px) {
+//  :root {font-size: 13px;}
+//}
+//@media (max-width: 1040px) {
+//  :root {font-size: 12px;}
+//}
+//@media (max-width: 991px) {
+//  :root {font-size: 10px;}
+//}
+@import 'components/layouts';
+
+@import 'components/reset';
+@import 'components/icons';
+@import 'components/wpfd_icons';
+
+@import 'components/scroll';
+
+@import 'components/button';
+@import 'components/input';
+@import 'components/select';
+@import 'components/switch';
+@import 'components/checkbox';
+@import 'components/radio';
+@import 'components/minicolors';
+@import 'components/modal';
+@import 'components/bootbox';
+
+@import 'components/left_column';
+@import 'components/center_column';
+@import 'components/right_column';
+
+@import 'components/progress_bar';
+@import 'components/wpfd_progress';
+@import 'components/list_user';
+@import 'components/statusbar';
+@import 'components/drop_overlay';
+[class*="wpfd-icon-set-"].ext {
+  background-size: 100% !important;
+  text-indent: -9999px;
+  width: 40px;
+  height: 40px;
+}
+.wpfd_alt_wrapper {
+  .file {
+    [class*="wpfd-icon-set-"].ext {
+      position: relative;
+      display: block;
+      float: left;
+      width: 50px;
+      height: 50px;
+    }
+  }
+}
+.rtl {
+  #wpcontent {
+    padding-right: 0;
+  }
+  #wpreview .wpfd-toolbar-wrapper .wpfd-filter-file {
+    right: unset;
+    left: 90px;
+  }
+  .restableMenu {
+    float: left !important;
+    left: 15px;
+    right: unset !important;
+    .wpfd-flip {
+      float: left;
+    }
+  }
+  #wpreview .wpfd-toolbar-wrapper .wpfd-btn-toolbar {
+
+  }
+}
+#preview .restableHideCols {
+  padding-top: 0;
+}

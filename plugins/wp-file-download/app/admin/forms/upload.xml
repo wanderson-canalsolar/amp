@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form class="wpfdparams" id="upload_config" method="POST"
+      action="admin.php?page=wpfd-config&amp;task=config.saveuploadparams">
+    <input
+            type="heading"
+            label="Upload form shortcode generator"
+            value=""
+            class="inputbox input-block-level"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="upload_cattegory_id"
+            id="upload_cattegory_id"
+            type="categoryid"
+            label="Category"
+            value=""
+            class="inputbox input-block-level ju-input"
+            tooltip="Select the file category where the files will be uploaded by users."
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+    <input
+            name="upload_shortcode"
+            id="upload_shortcode"
+            type="shortcode"
+            label="Shortcode"
+            value="[wpfd_upload]"
+            class="inputbox input-block-level upload-shortcode"
+            required="false"
+            disabled="disabled"
+            tooltip="Shortcode generated based on the settings above. Copy/paste it where you want"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+</form>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form class="wpfdparams" id="clone_config" method="POST" action="admin.php?page=wpfd-config&amp;task=config.clonetheme">
+    <input
+            type="heading"
+            label="Clone theme"
+            value=""
+            class="inputbox input-block-level"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="theme_name"
+            id="theme_name"
+            type="text2"
+            label="Theme name"
+            tooltip="Define a name for your new theme"
+            value=""
+            class="inputbox input-block-level ju-input"
+            required="false"
+            placeholder="Type here"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="theme"
+            id="theme"
+            type="theme"
+            label="Copy from"
+            tooltip="Choose an existing theme to duplicate"
+            value=""
+            class="inputbox input-block-level ju-input"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <button
+            type="submit"
+            value="Clone"
+            class="ju-button orange-button"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+</form>

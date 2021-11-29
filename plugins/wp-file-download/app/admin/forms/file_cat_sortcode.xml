@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form class="wpfdparams" id="file_cat_config" method="POST"
+      action="admin.php?page=wpfd-config&amp;task=config.savefilecatparams">
+    <input
+            type="heading"
+            label="Category shortcode generator"
+            value=""
+            class="inputbox input-block-level"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="file_cat_id"
+            id="file_cattegory_id"
+            type="categoryid"
+            label="Category"
+            value="0"
+            class="inputbox input-block-level ju-input"
+            tooltip="Select the file category where the files will be display"
+            optionname="All"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+    <input
+            name="file_cat_ordering"
+            id="file_cat_ordering"
+            type="select2"
+            label="Ordering"
+            value="ordering"
+            class="inputbox input-block-level ju-input"
+            required="true"
+            tooltip="Possibility to preview the files. Use the Google viewer, not all format can be previewed"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="ordering">Ordering</option>
+        <option value="ext">Type</option>
+        <option value="title">Title</option>
+        <option value="description">Description</option>
+        <option value="size">Filesize</option>
+        <option value="created_time">Date added</option>
+        <option value="modified_time">Date modified</option>
+        <option value="version">Version</option>
+        <option value="hits">Hits</option>
+    </input>
+
+    <input
+            name="file_cat_ordering_direct"
+            id="file_cat_ordering_direct"
+            type="select2"
+            label="Ordering direction"
+            value="asc"
+            class="inputbox input-block-level ju-input"
+            required="true"
+            tooltip="Possibility to preview the files. Use the Google viewer, not all format can be previewed"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="asc">Ascending</option>
+        <option value="desc">Descending</option>
+    </input>
+
+    <input
+            name="file_cat_number"
+            id="file_cat_number"
+            type="text2"
+            label="Max file number"
+            value="10"
+            class="inputbox input-block-level croptitle ju-input"
+            required="true"
+            tooltip=""
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+    <input
+            name="file_shortcode_generator"
+            id="file_shortcode_generator"
+            type="shortcode"
+            label="Shortcode"
+            value="[wpfd_category order='created_time' direction='asc' number='10']"
+            class="inputbox input-block-level file_shortcode_generator"
+            required="false"
+            disabled="disabled"
+            tooltip="Shortcode generated based on the settings above. Copy/paste it where you want"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+        name="show_categories"
+        id="show_categories"
+        type="switcher"
+        label="Show categories"
+        value="0"
+        class="ju-input hidden"
+        tooltip="Show categories"
+        namespace="Joomunited\WP_File_Download\Admin\Fields\"
+        />
+</form>

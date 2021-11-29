@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form class="wpfdparams" id="search_shortcode" method="POST"
+      action="admin.php?page=wpfd-config&amp;task=config.savesearchparams">
+    <input
+            type="heading"
+            label="Search engine shortcode generator"
+            value=""
+            class="inputbox input-block-level"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="cat_filter"
+            id="cat_filter"
+            type="switcher"
+            label="Filter by category"
+            value="1"
+            class="inputbox input-block-level"
+            required="true"
+            tooltip="Display the category filtering tool"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </input>
+    <input
+            name="search_category_id"
+            id="search_category_id"
+            type="category"
+            label="Search in this category"
+            value=""
+            class="inputbox input-block-level ju-input"
+            tooltip="Limit the search queries to this specific file category and its child categories, instead of all categories"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="exclude_category_id"
+            id="exclude_category_id"
+            type="multicategories"
+            label="Exclude categories from search"
+            value=""
+            class="inputbox input-block-level ju-input ju-multiselect"
+            tooltip="Exclude a selection of files categories from search queries"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="search_theme"
+            id="search_theme"
+            type="theme"
+            label="Search results theme"
+            value=""
+            topoption="|None"
+            class="inputbox input-block-level ju-input"
+            tooltip="Select theme using in search results"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="tag_filter"
+            id="tag_filter"
+            type="switcher"
+            label="Filter by tag"
+            value="1"
+            class="inputbox input-block-level"
+            required="true"
+            tooltip="Display the tag filter"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </input>
+
+    <input
+            name="display_tag"
+            id="display_tag"
+            type="select2"
+            label="Display tag as"
+            value="1"
+            class="inputbox input-block-level ju-input"
+            required="true"
+            tooltip="Display tag filtering as checkbox or search box"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="searchbox">Search box</option>
+        <option value="checkbox">Multiple select</option>
+    </input>
+
+    <input
+            name="create_filter"
+            id="create_filter"
+            type="switcher"
+            label="Filter by creation date"
+            value="1"
+            class="inputbox input-block-level"
+            required="true"
+            tooltip="Filter files by date of creation range"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </input>
+    <input
+            name="update_filter"
+            id="update_filter"
+            type="switcher"
+            label="Filter by update date"
+            value="1"
+            class="inputbox input-block-level"
+            required="true"
+            tooltip="Filter files by date of update range"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </input>
+
+    <input
+            name="file_per_page"
+            id="file_per_page"
+            type="select2"
+            label="# Files per page"
+            value="15"
+            class="inputbox input-block-level ju-input"
+            required="true"
+            tooltip="Pagination of the search results"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="15">15</option>
+        <option value="20">20</option>
+        <option value="25">25</option>
+        <option value="30">30</option>
+        <option value="50">50</option>
+        <option value="100">100</option>
+        <option value="-1">all</option>
+    </input>
+
+    <input
+            name="shortcode"
+            id="shortcode_value"
+            type="shortcode"
+            label="Shortcode"
+            value="[wpfd_search]"
+            fullwidth="1"
+            class="inputbox input-block-level"
+            required="false"
+            disabled="disabled"
+            tooltip="Shortcode generated based on the settings above. Copy/paste it where you want"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+</form>

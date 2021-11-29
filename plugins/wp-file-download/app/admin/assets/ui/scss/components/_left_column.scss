@@ -1,0 +1,83 @@
+$dropdown-background-color: #ffffff;
+
+#wpfd-categories-col {
+  padding: 15px 15px 0;
+  .ju-dropdown-wrapper {
+    position: relative;
+    display: block;
+    .wpfd_add_new {
+      display: block;
+      position: relative;
+      text-decoration: none;
+      font-size: 15px;
+      color: $orange-color;
+      cursor: pointer;
+      margin: 0 auto;
+      @include borderRadius(100px);
+      @include transition(unset);
+    }
+    .ju-dropdown-menu {
+      display: none;
+      position: absolute;
+      background-color: $dropdown-background-color;
+      padding: 0;
+      margin: 0;
+      z-index: 1;
+      ul {
+        list-style: none;
+        width: 100%;
+        li {
+          display: list-item;
+          padding: 10px;
+        }
+      }
+    }
+    &.hasCloud:hover {
+      @include boxShadow(0px 8px 16px 0px rgba(0,0,0,0.2));
+      .wpfd_add_new {
+        border: 1px solid white;
+        @include borderRadius(4px 4px 0 0);
+        @include boxShadow(none);
+        border-bottom: 1px solid #eee;
+        &:hover {
+          background: rgba(0,0,0,0.05);
+        }
+      }
+      .ju-dropdown-menu {
+        display: block;
+        margin: 0 auto;
+        top: 42px;
+        left: 0;
+        right: 0;
+        @include borderRadius(0 0 4px 4px);
+        @include boxShadow(0px 8px 16px 0px rgba(0,0,0,0.2));
+        li {
+          padding: 7px 0;
+          text-align: center;
+          margin: 0;
+
+          a, button, .button {
+            margin: 0;
+            background: transparent;
+            border: none;
+            @include boxShadow(none);
+            width: 100%;
+            text-align: left;
+            padding: 0 30px;
+            &:hover {
+              background: rgba(0,0,0,0.05);
+              @include borderRadius(0);
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+#categorieslist {
+  margin-right: 8px;
+}
+// nestable
+@import 'nestable';

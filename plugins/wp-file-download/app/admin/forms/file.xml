@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form class="wpfdparams">
+    <button
+            type="savesettings"
+            value="Save settings"
+            class="ju-button orange-button btn-file-save"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="state"
+            type="switcher"
+            label="Published"
+            value="1"
+            class="ju-input"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+
+    <input
+            name="title"
+            type="text2"
+            label="Title"
+            value=""
+            class="ju-input"
+            required="true"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <!--
+        /**
+        * Action thrown after title field
+        *
+        * @param string  Current file information
+        *
+        */
+        do_action('wpfd_admin_after_file_title_field', $file_data);
+        -->
+    <input
+            name="wpfd_admin_after_file_title_field"
+            type="action"
+    />
+    <input
+            name="ext"
+            type="filetype"
+            label="File type"
+            value=""
+            class="ju-input wpfd-hide"
+            required="false"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="remoteurl"
+            type="remoteurl"
+            label="Remote URL"
+            value=""
+            class="ju-input wpfd-hide"
+            required="false"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="description"
+            type="desc"
+            label="Description"
+            value=""
+            cols="50"
+            rows="5"
+            class="ju-input"
+            required="false"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="publish"
+            type="date"
+            label="Published on"
+            value="0000-00-00 00:00:00"
+            class="ju-input publish_up"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="expiration"
+            type="date"
+            label="Expiration date"
+            value="0000-00-00 00:00:00"
+            class="ju-input expiration_date"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="version"
+            type="text2"
+            label="Version"
+            value=""
+            class="ju-input"
+            required="false"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+    <input
+            name="file_multi_category"
+            type="filemulticategory"
+            label="Multi category"
+            value=""
+            id="file_multi_category"
+            class="ju-input file_multi_category"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+    <input
+            name="social"
+            id="social"
+            type="social"
+            label="Lock content by social"
+            value="0"
+            class="ju-input"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\">
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </input>
+
+    <input
+            name="canview"
+            id="canview"
+            type="canuser"
+            label="User allowed to display file"
+            value=""
+            class="ju-input"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+    <input
+            name="hits"
+            type="hits"
+            label="Hits"
+            value=""
+            class="ju-input wpfdinput"
+            size="6"
+            id="hits"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="file_tags"
+            id="file_tags"
+            type="text2"
+            label="Tags"
+            value=""
+            class="ju-input"
+            required="false"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+    <input
+            name="file_custom_icon"
+            type="mediabutton"
+            label="Custom icon"
+            value=""
+            id="file_custom_icon"
+            required="false"
+            class="ju-input file_custom_icon"
+            tooltip="Using your icon. Must Enable option Custom icon in Configuration page."
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+    <input
+            name="file_direct_link"
+            id="file_direct_link"
+            type="shortcode"
+            label="File direct link"
+            value="null"
+            class="ju-input file_direct_link"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="file_multi_category_old"
+            id="file_multi_category_old"
+            type="text2"
+            label=""
+            value=""
+            class="ju-input hidden"
+            required="false"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="singleshortcode"
+            type="singleshortcode"
+            label="Single file shortcode"
+            value=""
+            size="6"
+            id="singleshortcode"
+            required="false"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+    <!--
+    /**
+    * Action thrown after all file settings inputs have been echoed
+    *
+    * @param string  Current file information
+    *
+    */
+    do_action('wpfd_after_file_main_settings', $file_data);
+    -->
+    <input
+        name="wpfd_after_file_main_settings"
+        type="action"
+    />
+
+    <button
+            type="savesettings"
+            value="Save settings"
+            class="ju-button orange-button btn-file-save"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <!--
+        /**
+        * Action thrown after bottom file save settings button
+        *
+        * @param string  Current file information
+        *
+        */
+        do_action('wpfd_after_bottom_file_save_settings', $file_data);
+        -->
+    <input
+            name="wpfd_admin_after_bottom_file_save_settings"
+            type="action"
+    />
+</form>

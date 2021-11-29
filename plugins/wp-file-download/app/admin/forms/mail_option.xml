@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form class="wpfdparams" id="mailoption_config" method="POST"
+      action="admin.php?page=wpfd-config&amp;task=config.savemailoption">
+    <input
+            name="mail_option_mailer_smtp"
+            type="hidden"
+            hidden="true"
+            label="mailer"
+            value="smtp"
+            class="inputbox input-block-level ju-input"
+            required="true"
+            tooltip="mailer"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            type="heading"
+            label="SMTP Options"
+            value=""
+            class="inputbox input-block-level"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="mail_option_enable_smtp"
+            type="switcher"
+            label="Enable SMTP"
+            value="0"
+            class="inputbox input-block-level ju-input"
+            required="true"
+            tooltip="Enable SMTP send email"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+    <input
+            name="mail_option_smtp_host"
+            type="text2"
+            label="SMTP Host"
+            value="smtp.gmail.com"
+            class="inputbox input-block-level ju-input"
+            required="true"
+            tooltip="SMTP Host"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+
+    />
+    <input
+            name="mail_option_smtp_port"
+            type="text2"
+            label="SMTP Port"
+            value="25"
+            class="inputbox input-block-level ju-input"
+            required="true"
+            tooltip="SMTP Port"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+
+    />
+
+    <input
+            type="radio2"
+            label="Encryption"
+            value="0"
+            name="mail_option_encription"
+            class="inputbox input-block-level ju-input"
+            required="true"
+            tooltip="Encryption"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option type="radio" class="ju-radiobox" name="mail_option_encription" value="none">None</option>
+        <option type="radio" class="ju-radiobox" name="mail_option_encription" value="ssl">SSL</option>
+        <option type="radio" class="ju-radiobox" name="mail_option_encription" value="tls">TLS</option>
+    </input>
+    <input
+            type="radio2"
+            label="Authentication"
+            value="0"
+            name="mail_option_authentication"
+            class="inputbox input-block-level ju-input"
+            required="true"
+            tooltip="Authentication"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option type="radio" class="ju-radiobox" name="mail_option_authentication" value="1">Yes</option>
+        <option type="radio" class="ju-radiobox" name="mail_option_authentication" value="0">No</option>
+    </input>
+    <input
+            name="mail_option_smtp_insecure_ssl"
+            type="switcher"
+            label="Allow Insecure SSL Certificates"
+            value="0"
+            class="inputbox input-block-level ju-input"
+            required="true"
+            tooltip="Allows insecure and self-signed SSL certificates on SMTP server. It's highly recommended to keep this option disabled"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+
+    <input
+            name="mail_option_username"
+            type="text2"
+            label="Username"
+            value=""
+            class="inputbox input-block-level ju-input"
+            tooltip="Username"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+
+    />
+    <input
+            name="mail_option_password"
+            type="input2"
+            label="Password"
+            value=""
+            class="inputbox input-block-level ju-input"
+            tooltip="Password"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+
+    />
+
+    <button
+            type="submit"
+            value="Save"
+            class="ju-button orange-button"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+</form>

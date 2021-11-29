@@ -1,0 +1,78 @@
+# Translation of Plugins - FSM Custom Featured Image Caption - Development (trunk) in Catalan
+# This file is distributed under the same license as the Plugins - FSM Custom Featured Image Caption - Development (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Plugins - FSM Custom Featured Image Caption - "
+"Development (trunk)\n"
+"POT-Creation-Date: 2017-10-04 14:05+0100\n"
+"PO-Revision-Date: 2020-09-22 12:48+0200\n"
+"Last-Translator: Antonio Vicién Faure <antonio@antonio.cat>\n"
+"Language-Team: \n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ../../plugins/fsm-custom-featured-image-caption\n"
+
+#: ../../plugins/fsm-custom-featured-image-caption/fsm-custom-featured-image-caption.php:35
+msgid "Featured image caption"
+msgstr "Llegenda de la imatge destacada"
+
+#: ../../plugins/fsm-custom-featured-image-caption/fsm-custom-featured-image-caption.php:36
+msgid "If left empty, the default caption will be used"
+msgstr "Si es deixa buit, s'utilitzarà la llegenda per defecte"
+
+#: ../../plugins/fsm-custom-featured-image-caption/fsm-custom-featured-image-caption.php:40
+msgid "Don't show caption"
+msgstr "Oculta la llegenda"
+
+#: ../../plugins/fsm-custom-featured-image-caption/fsm-custom-featured-image-caption.php:44
+msgid "Don't show featured image"
+msgstr "Oculta la imatge destacada"
+
+#: ../../plugins/fsm-custom-featured-image-caption/fsm-custom-featured-image-caption.php:269
+msgid "FSM Custom Featured Image Caption"
+msgstr "FSM Custom Featured Image Caption"
+
+#: ../../plugins/fsm-custom-featured-image-caption/fsm-custom-featured-image-caption.php:293
+msgid "Settings"
+msgstr "Configuració"
+
+#: ../../plugins/fsm-custom-featured-image-caption/fsm-custom-featured-image-caption.php:301
+msgid "CSS for caption text"
+msgstr "CSS de la llegenda"
+
+#: ../../plugins/fsm-custom-featured-image-caption/fsm-custom-featured-image-caption.php:309
+msgid "Allow HTML code"
+msgstr "Permet codi HTML"
+
+#: ../../plugins/fsm-custom-featured-image-caption/fsm-custom-featured-image-caption.php:349
+msgid "Default Class (wp-caption-text)"
+msgstr "Classe per defecte (wp-caption-text)"
+
+#: ../../plugins/fsm-custom-featured-image-caption/fsm-custom-featured-image-caption.php:356
+msgid "Custom Class"
+msgstr "Classe personalitzada"
+
+#: ../../plugins/fsm-custom-featured-image-caption/fsm-custom-featured-image-caption.php:369
+msgid "Custom Style"
+msgstr "Estil personalitzat"
+
+#: ../../plugins/fsm-custom-featured-image-caption/fsm-custom-featured-image-caption.php:384
+msgid "If checked, HTML code inside the caption text will be processed"
+msgstr "Processa el codi HTML de la llegenda"
+
+#~ msgid "http://wp.fesomia.cat"
+#~ msgstr "http://wp.fesomia.cat"
+
+#~ msgid "Fesomia"
+#~ msgstr "Fesomia"
+
+#~ msgid "Allows you to add a custom caption to the featured image of a post."
+#~ msgstr ""
+#~ "Us permet afegir un títol personalitzat a la imatge destacada d'una "
+#~ "publicació."

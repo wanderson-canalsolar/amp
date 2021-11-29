@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form class="wpfdparams" method="POST"
+      action="admin.php?page=wpfd-config&amp;theme=ggd&amp;task=config.savethemeparams">
+    <input
+            name="ggd_marginleft"
+            type="typeint"
+            label="Margin left"
+            value="10"
+            class="inputbox input-block-level ju-input"
+            required="true"
+            tooltip="File icon left margin"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="ggd_marginright"
+            type="typeint"
+            label="Margin right"
+            value="10"
+            class="inputbox input-block-level ju-input"
+            required="true"
+            tooltip="File icon right margin"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="ggd_margintop"
+            type="typeint"
+            label="Margin top"
+            value="10"
+            class="inputbox input-block-level ju-input"
+            required="true"
+            tooltip="File icon top margin"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="ggd_marginbottom"
+            type="typeint"
+            label="Margin bottom"
+            value="10"
+            class="inputbox input-block-level ju-input"
+            required="true"
+            tooltip="File icon bottom margin"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+    <input
+            name="ggd_showsize"
+            type="switcher"
+            label="Show weight"
+            value="1"
+            class="inline ju-input"
+            tooltip="Display the weight of the file download"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+    <input
+            name="ggd_showtitle"
+            type="switcher"
+            label="Show title"
+            value="1"
+            class="inline ju-input"
+            tooltip="Display the title of the file download"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+    <input
+            name="ggd_croptitle"
+            type="text2"
+            label="Crop titles"
+            value="0"
+            class="inputbox input-block-level croptitle ju-input"
+            required="true"
+            tooltip="Crop the files titles after a predefined number of characters"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="ggd_showdescription"
+            type="switcher"
+            label="Show description"
+            value="1"
+            class="inline ju-input"
+            tooltip="Display the description of the file download"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+    <input
+            name="ggd_showversion"
+            type="switcher"
+            label="Show version"
+            value="1"
+            class="inline ju-input"
+            tooltip="Display the version (if any) of the file download"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+    <input
+            name="ggd_showhits"
+            type="switcher"
+            label="Show hits"
+            value="1"
+            class="inline ju-input"
+            tooltip="Display the download hits (if any) of the file"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+
+    <input
+            name="ggd_showdownload"
+            type="switcher"
+            label="Show download link"
+            value="1"
+            class="inline ju-input"
+            tooltip="Add the download button and file title link in file listing"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+
+    <input
+            name="ggd_bgdownloadlink"
+            type="text2"
+            label="Background download link"
+            value="#76bc58"
+            class="ju-input wp-color-field minicolors minicolors-input"
+            tooltip="Background color of the download button"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+
+    <input
+            name="ggd_colordownloadlink"
+            type="text2"
+            label="Color download link"
+            value="#ffffff"
+            class="ju-input wp-color-field minicolors minicolors-input"
+            tooltip="The download link and text of the download button colors"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+    <input
+            name="ggd_showdateadd"
+            type="switcher"
+            label="Show date added"
+            value="1"
+            class="inline ju-input"
+            tooltip="Display the date of the file upload"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+
+    <input
+            name="ggd_showdatemodified"
+            type="switcher"
+            label="Show date modified"
+            value="0"
+            class="inline ju-input"
+            tooltip="Display the date of the file last modification (file replace, file information edition…)"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+    <input
+            name="ggd_showcategorytitle"
+            type="switcher"
+            label="Show category title"
+            value="1"
+            class="inline ju-input"
+            tooltip="Display the file category title"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+    <input
+            name="ggd_showsubcategories"
+            type="switcher"
+            label="Show subcategories"
+            value="1"
+            class="inline ju-input"
+            tooltip="Display not only the category selected but also all its subcategories"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+    <input
+            name="ggd_showbreadcrumb"
+            type="switcher"
+            label="Show Breadcrumb"
+            value="1"
+            class="inline ju-input"
+            tooltip="Display a clickable navigation breadcrumb, to navigate through file categories"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+
+    <input
+            name="ggd_showfoldertree"
+            type="switcher"
+            label="Show folder tree"
+            value="0"
+            class="inline ju-input"
+            tooltip="Display a folder tree with file categories on the left part of the file listing"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>
+    <input
+            name="ggd_download_popup"
+            type="switcher"
+            label="Download popup"
+            value="1"
+            class="inputbox input-block-level ju-input"
+            required="true"
+            tooltip="Open a popup when the user click on the file to display file details and download/preview links"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    >
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </input>
+    <button
+            type="submit"
+            value="Save"
+            class="ju-button orange-button"
+            namespace="Joomunited\WP_File_Download\Admin\Fields\"
+    />
+</form>
