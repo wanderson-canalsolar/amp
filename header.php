@@ -1,6 +1,15 @@
 <?php amp_header_core() ?>
+<div class="black-bg">
+<h5><?php  echo wp_date("d-M-Y", null,null);?></h5>
+            <?php amp_social([
+                'facebook' => 'https://facebook.com/ampforwp',
+                'linkedin' => 'https://linkedin.com/ampforwp',
+                'youtube' => 'https://youtube.com/ampforwp',
+                'instagram' => 'https://instagram.com/ampforwp',
+                'spotify' => 'https://spotify.com/ampforwp',
+            ]);?>  
+</div>
  <header class="header container">
-        
         <div class="left">
             <?php amp_logo(); ?>
         </div>
@@ -9,14 +18,11 @@
             <?php amp_call_now(); ?>
             <?php amp_search();?>
 
-            <!-- <?php amp_social([
-                'twitter' => 'https://twitter.com/ampforwp',
-                'facebook' => 'https://facebook.com/ampforwp'
-            ]);?>     -->
             <?php amp_sidebar(['action'=>'open-button']); ?>         
         </div>
         
         <div class="clearfix"></div>
+        
      
 </header>
 

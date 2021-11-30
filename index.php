@@ -8,6 +8,10 @@
 <?php amp_loop_template2(); ?>
 
 
+<!-- 
+
+
+
 <div class="colunistas">
     <hr class="hr">
     <h3>COLUNISTAS</h3>
@@ -16,50 +20,50 @@
 
 <amp-base-carousel width="auto" type="slides"
   height="250">
-  <div>
+  <div class="div-colunistas">
   <amp-img class="img-amp-colunistas" src="https://canalsolar.com.br/wp-content/uploads/2020/09/aldo.png"
-    width="200"
-    height="200"></amp-img>
+    width="85"
+    height="85"></amp-img>
     <h3 class="nome-colunista">ALDO PEREIRA TEIXEIRA</h3>
     <p>
 Intersolar: energia positiva iluminando o 'novo normal'</p>
 </div>
 
-<div>
+<div class="div-colunistas">
   <amp-img class="img-amp-colunistas" src="https://canalsolar.com.br/wp-content/uploads/2021/01/Bruno-Kikumoto-sitenovo-1-500x500.jpg"
-    width="200"
-    height="200"></amp-img>
+    width="85"
+    height="85"></amp-img>
     <h3 class="nome-colunista">BRUNO KIKUMOTO</h3>
     <p>
 Intersolar: energia positiva iluminando o 'novo normal'</p>
 </div>
 
-<div>
+<div class="div-colunistas">
   <amp-img class="img-amp-colunistas" src="https://canalsolar.com.br/wp-content/uploads/2021/08/Pedro-Dante.jpg"
-    width="200"
-    height="200"></amp-img>
+    width="85"
+    height="85"></amp-img>
     <h3 class="nome-colunista">PEDRO DANTE</h3>
     <p>
 Intersolar: energia positiva iluminando o 'novo normal'</p>
 </div>
 
-<div>
+<div class="div-colunistas">
   <amp-img class="img-amp-colunistas" src="https://canalsolar.com.br/wp-content/uploads/2021/10/Marina-diretora-juridica.jpg"
-    width="200"
-    height="200"></amp-img>
+    width="85"
+    height="85"></amp-img>
     <h3 class="nome-colunista">MARINA MEYER</h3>
     <p>
 Intersolar: energia positiva iluminando o 'novo normal'</p>
 </div>
 
-<div>
+<div class="div-colunistas">
   <amp-img class="img-amp-colunistas" src="https://canalsolar.com.br/wp-content/uploads/2021/08/Leandro-Martins.jpg"
-    width="200"
-    height="200"></amp-img>
+    width="85"
+    height="85"></amp-img>
     <h3 class="nome-colunista">LEANDRO MARTINS</h3>
     <p>
 Intersolar: energia positiva iluminando o 'novo normal'</p>
-</div>
+</div> -->
     
   <!-- <amp-img class="img-amp-colunistas" src="https://canalsolar.com.br/wp-content/uploads/2021/01/Bruno-Kikumoto-sitenovo-1-500x500.jpg"
     width="450"
@@ -79,9 +83,9 @@ Intersolar: energia positiva iluminando o 'novo normal'</p>
 
     <amp-img class="img-amp-colunistas" src="https://canalsolar.com.br/wp-content/uploads/2021/08/Leandro-Martins.jpg"
     width="450"
-    height="300">Leandro</amp-img> -->
+    height="300">Leandro</amp-img>
 
-</amp-base-carousel>
+ </amp-base-carousel>
 
 <amp-img class="capa-revista-amp" src="https://canalsolar.com.br/wp-content/uploads/2021/11/capa-revista-canal-solar-6_9_11zon.jpg" width="350" height="500"></amp-img>
 </div>
@@ -93,10 +97,11 @@ Intersolar: energia positiva iluminando o 'novo normal'</p>
 
 <hr class="hr">
     <h3 style="text-align:center;">NOTÍCIAS</h3>
-    <hr class="hr">
+    <hr class="hr"> -->
 
     <?php echo do_shortcode( '[diwp_recent_posts cat="Artigos" num="12" order="asc"]' );?>
 
     <?php amp_loop_template3(); ?>
+
 
 <?php amp_footer(); ?>

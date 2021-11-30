@@ -1,7 +1,7 @@
 /**** 
 * AMP Framework Reset
 *****/
-    body{ font-family: sans-serif; font-size: 16px; line-height:1.4; }
+    body{ font-family: sans-serif; font-size: 16px; line-height:1.4; overflow-y: hidden; }
     ol, ul{ list-style-position: inside }
     p, ol, ul, figure{ margin: 0 0 1em; padding: 0; }
     a, a:active, a:visited{ color:#ed1c24; text-decoration: none }
@@ -55,7 +55,7 @@
         object-fit: contain;
     }
 
-
+     
 /****
 * Container
 *****/
@@ -137,12 +137,52 @@
         background: #444;
     }
 
+    /* GDPR */
+    #cookie-consent-backdrop {
+    width: 100%;
+    height: 100%;
+    z-index: 1002; /* places the modal overlay between the main page and the modal dialog*/
+    background-color: #000;
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+#cookie-consent-p{
+    color:#fff;
+}
+#cookie-consent-ui {
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1003; /* places the modal dialog on top of everything else */
+    position: fixed;
+    padding: 10
+px
+;
+    background-color: #000000b0;
+    text-align: center;
+}
+#cookie-consent-ui h2 {
+    text-align: center;
+    color:#fff;
+}
 
 /**** 
 * Header
 *****/
 .s{
-    height: 27px;
+    height: 33px;
+    border-radius: 4
+px
+;
+    border: solid 1
+px
+ #00000040;
 }
 .amp-search-wrapper{
     display: inline-flex;
@@ -157,7 +197,7 @@ input[type="search"] {
 input[type="submit"] { 
      width:2.5rem;  
      background-repeat: no-repeat; 
-      background-image: url('https://localhost/site/wordpress/wp-content/uploads/2021/11/magnifying-glass-svgrepo-com.svg');  
+      background-image: url('https://192.168.15.154/site/wordpress/wp-content/uploads/2021/11/magnify.svg');  
       background-size: 1.4rem 1.4rem;  
       background-position: 50% 50%; 
        border-top-right-radius: 4px; 
@@ -192,13 +232,24 @@ input[type="submit"] {
         margin: 0px 19px;
     }
     .amp-sidebar-button{
-        top: -40px;
+        top: -55px;
     }
 
 
 /**** 
 * Loop
 *****/
+.wp-image-7416{
+    margin-bottom: 40px;
+}
+.footer span{
+    color:#fff;
+    margin-right:10px;
+
+}
+#text-2 h4{
+    color:#fff;
+}
 .loop-title{
     font-size: 1.2em;
     color:#000;
@@ -219,10 +270,89 @@ px
 px
 ;
 }
-.loop-post1 > #id-teste-amp-img1 > .loop-img > a > #id-teste-amp-img-datahero{
+#sidebar .icon-facebook, #sidebar .icon-linkedin, #sidebar .icon-youtube-play, #sidebar .icon-instagram{
+    margin-right: 10
+px
+;
+    margin-left: 20
+px
+;
+    margin-top: 20
+px
+;
+}
+.black-bg{
+    background-color: #000;
+    width:100%;
+    color:#fff;
+text-align:center;
+padding:10px;
+}
+.black-bg h5{
+    float:left;
+    margin: 0 auto;
+    margin-left:18%;
+}
+.spotify-div{
+    height:25%;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 35%;
+}
+.div-ver-todos{
+    margin-top:5px;
+}
+.ver-todos{
+    text-align: center;
+    color:#ce5b3d;
+}
+.h3-videos{
+    text-align: center;
+}
+.h3-webinario{
+    text-align: center;
+}
+.h3-entrevista{
+    text-align: center;
+}
+.h3-papo{
+    text-align: center;
+}
+.h3-guia{
+    text-align: center;
+}
+.h3-artigos{
+    text-align: center;
+}
+.h3-colunistas{
+    text-align: center;
+}
+.h3-noticias{
+    text-align: center;
+}
+#id-colunistas-feature{
+    background-color: #f4f4f4;
+}
+.feat-blk #id-teste-amp-img-datahero{
+    width:25%;
+    border-radius: 50%;
+}
+#id-teste-amp-img-datahero p{
+    color:#ce5b3d;
+
+}
+.nome-colunista-feature{
+    color:#ce5b3d;
+    margin-bottom: 0px;
+    font-size:12px;
+}
+.texto-colunista-feature{
+    color:#000 !important;
+}
+<!-- .loop-post1 > #id-teste-amp-img1 > .loop-img > a > #id-teste-amp-img-datahero{
     min-width:100%;
     margin-left: 1%;
-}
+} -->
 #id-teste-amp-img1 > .loop-img{
     float:unset;
 }
@@ -281,26 +411,26 @@ px
     font-size:20px;
     font-weight:bold;
 }
-.a-so{
-    margin-top:40px;
-}
+
 .nome-colunista{
     color: #CE5B3D;
+    font-size:12px;
 }
 .capa-revista-amp{
     margin:auto;
 }
-.img-amp-colunistas{
-    float:left;
-    border-radius:50%;
-}
+
 .colunistas{
     margin:10px;
     text-align:center;
 }
+#carousel-colunistas5 img{
+    width: 50%;
+    border-radius:40%;
+}
 .hr{
     height:3px;
-    background-color: #3333339e;
+    background-color: #2D4C8C;
 }
 .pp-user-avatar{
     width:50%;
@@ -335,7 +465,18 @@ height:auto;}
         margin: 0px 10px 0px 0px;
     }
 
-
+#carousel-colunistas{
+    width:30%;
+}
+.div-colunistas{
+    width:30%;
+}
+#canal-grid-7{
+    list-style-type:none;
+}
+#canal-grid-1315{
+    list-style-type:none;
+}
 /**** 
 * Comments
 *****/
