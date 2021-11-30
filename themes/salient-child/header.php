@@ -42,6 +42,7 @@ jQuery('document').ready(function(){
 <span>We use cookies by browsing, you consent to use of cookies &nbsp;&nbsp;Cookie Notice
 <a href="https://netnaps.com/cookie-notification/">Cookie-Notification</a><button on="tap:my-notification.dismiss">Accept <span class="dashicons dashicons-yes"></span></button></span>
 </amp-user-notification> -->
+
 		<!-- FIM-->
 
 </head>
