@@ -42,7 +42,7 @@ Campinas – SP, 13087-727</p>
    <div id="cookie-consent-ui" class="card col-lg-6 col-md-8 col-sm-10 col-11" aria-labelledby="cookie-consent-title" role="dialog">
     <h2 id="cookie-consent-title">Permitir Cookies?</h2>
     <p id="cookie-consent-p">
-	Nós usamos cookies para tornar sua experiência neste site melhor Saiba mais sobre os cookies que utilizamos ou desligue nas suas configurações.
+	Nós usamos cookies para tornar sua experiência neste site melhor Saiba mais sobre os cookies que utilizamos ou desligue nas configurações do navegador.
 
 
     </p>
