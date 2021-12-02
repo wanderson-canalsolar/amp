@@ -171,7 +171,9 @@ px
     text-align: center;
     color:#fff;
 }
-
+#scrollToTopButton{
+    z-index:99;
+}
 /**** 
 * Header
 *****/

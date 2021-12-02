@@ -29,7 +29,7 @@ Campinas – SP, 13087-727</p>
 	<?php amp_non_amp_link(); ?>
 	
 </footer>
-
+<!-- AMP LGPD-->
 <amp-consent layout="nodisplay" id="cookie-consent-element">
   <script type="application/json">
   {
